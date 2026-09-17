@@ -7,9 +7,60 @@
   <a href="https://docs.typesafe.ai"><img alt="Powered by Jev" src="https://img.shields.io/badge/POWERED%20BY-Jev%20(TypeSafe)-b7ff6e?style=for-the-badge&labelColor=0b0f18"></a>
   <img alt="Cost" src="https://img.shields.io/badge/FULL%20DEBATE-%240.05-ffd23f?style=for-the-badge&labelColor=0b0f18">
   <img alt="License" src="https://img.shields.io/badge/LICENSE-MIT-4c8dff?style=for-the-badge&labelColor=0b0f18">
+  <a href="eval/RESULTS.md"><img alt="Preset accuracy" src="https://img.shields.io/badge/PRESET%20ACCURACY-99%25%20held--out-ff6bcb?style=for-the-badge&labelColor=0b0f18"></a>
 </p>
 
 <h3 align="center">Every sentence scored. Every dodge flagged. Rendered as a 16:9 edit you can post.</h3>
+
+---
+
+## 🐣 New here? 3 steps, no coding
+
+**1. Install** (macOS or Linux, needs [Python 3.9+](https://www.python.org/downloads/)):
+
+```bash
+git clone https://github.com/ChetasLua/jevmeter.git && cd jevmeter && ./install.sh
+```
+
+**2. Paste your API key** when the installer asks. Get one at [console.typesafe.ai/keys](https://console.typesafe.ai/keys).
+It's saved in your user settings, never in this folder, so it can't end up on GitHub.
+
+**3. Make a video:**
+
+```bash
+source .venv/bin/activate
+jevmeter
+```
+
+Drag your video into the terminal, pick a preset, press Enter a few times, and your edited video appears next to
+the original as `<name>.jevmeter.mp4`. 🎉
+
+<details>
+<summary>What the wizard looks like</summary>
+
+```text
+🎬  Step 1: your video
+    Drag the video file into this window (or paste a path or link), then press Enter.
+    Video: ~/Movies/town-hall.mp4
+
+🎴  Step 2: pick a preset
+    1. 🦉  Debates & interviews             BS index: evasive, dodged the question, emotional appeal, contradicts self
+    2. 🦊  Earnings calls & investor Q&A    Spin index: vague guidance, blaming outside factors, hype, dodges
+    3. 🐉  Podcasts & YouTube talk          Hot take index: unsupported claims, overgeneralizations, outrage, self-promotion
+    4. 🦚  Pitches, launches & ads          Hype index: buzzwords, overpromises, urgency pressure, vague benefits
+    Number [1]:
+
+👥  Step 3: who is speaking?
+    Transcript file (press Enter to skip = one meter for everyone):
+
+✂️   Step 4: what kind of video do you want?
+    1. Highlights: best moments + hyperlapse + final scoreboard (about 1-2 min, great for posting)
+    2. Full: meter over the whole video (or a part of it)
+```
+</details>
+
+Something not working? Run `jevmeter doctor`. It checks Python, ffmpeg, speech-to-text and your key, and tells you
+exactly what to fix. On Windows, use the manual install below.
 
 ---
 
@@ -39,7 +90,7 @@ https://github.com/user-attachments/assets/34b071ea-d13c-4cd5-b4b1-4f28ff7df3c2
 </tr>
 </table>
 
-### 📊 Battle stats (measured, not estimated)
+### 📊 Battle stats (measured on the original run, not estimated)
 
 | | 🔴 Trump | 🔵 Harris |
 |:--|:--:|:--:|
@@ -73,26 +124,47 @@ https://github.com/user-attachments/assets/34b071ea-d13c-4cd5-b4b1-4f28ff7df3c2
 | `podcast` | **HOT TAKE INDEX** | factual claim · unsupported claim · overgeneralization · emotional appeal · self-promotion |
 | `sales_pitch` | **HYPE INDEX** | concrete metric · buzzwords · overpromise · urgency pressure · vague benefit |
 
+**Tested, not guessed.** On 200 held-out sentences written separately from the presets (with tricky near-misses, like
+a polite "thank you" before a real answer, or a promise that contains a number), the shipped presets get
+**99% accuracy** and every question separates yes from no perfectly (AUC 1.00). The first version got 94.5%.
+Full breakdown and how to rerun it: [eval/RESULTS.md](eval/RESULTS.md).
+
+The questions follow [TypeSafe's guidance](https://docs.typesafe.ai/primitives): each one names the field it judges
+(`` `sentence` ``, `` `moderator_question` ``) and carries structured yes/no criteria with examples.
+
 Want a different fight? A preset is a small JSON file, so [write your own](#-custom-questions).
 
 ---
 
-## 🚀 Quick start
+## 🚀 Command line (for power users)
+
+**Manual install** (any OS, including Windows):
 
 ```bash
 git clone https://github.com/ChetasLua/jevmeter.git
 cd jevmeter
+python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -e ".[mlx]"      # Apple Silicon (mlx-whisper)
 # pip install -e ".[cpu]"    # everything else (faster-whisper)
-
-export TYPESAFE_API_KEY=...  # https://console.typesafe.ai/keys
+jevmeter setup               # paste your key once
 ```
+
+**Your API key, safely.** jevmeter looks for the key in this order: the `TYPESAFE_API_KEY` environment variable, a
+`.env` file in the current folder (git-ignored, see `.env.example`), then `~/.config/jevmeter/config.json`, which
+`jevmeter setup` writes readable only by you. The repo's CI and an optional pre-commit hook
+(`python scripts/check_secrets.py --install`) block commits that contain anything that looks like a key.
 
 **Two speakers + transcript** (debates, interviews):
 
 ```bash
 jevmeter run debate.mp4 --transcript debate.txt \
   --speakers "TRUMP,HARRIS" --label TRUMP=Trump --label HARRIS=Harris --preset debate
+```
+
+**A link instead of a file** (needs `pip install yt-dlp`; only use videos you have the right to use):
+
+```bash
+jevmeter run "https://www.youtube.com/watch?v=..." --preset podcast --mode full --start 300 --end 420
 ```
 
 **One speaker, no transcript** (podcasts, pitches, keynotes):
@@ -109,8 +181,8 @@ jevmeter run examples/mock_debate.mp4 --transcript examples/mock_debate_transcri
   --speakers REYES,PARK --label REYES="MAYOR REYES" --label PARK="CLLR PARK" --clips 2
 ```
 
-That run scores 33 sentences for about **$0.001** and renders a 74 s video in under 3 minutes on an M-series Mac.
-Jev rated the evasive mayor at **62.9** and the specific councillor at **20.0**.
+That run scores 33 sentences for about **$0.002**. With the shipped presets, Jev rates the evasive mayor at **60.6** and
+the specific councillor at **12.6**.
 
 <table>
 <tr>
@@ -194,6 +266,8 @@ Run it with `--preset my_questions.json`.
 | `--workers` | half your cores, max 4 | parallel render processes |
 | `--price` | 0.042 | $ per 1M input tokens for the cost counter; check your console |
 | `--score-only` | off | stop after scoring and print the per-speaker summary |
+| `jevmeter setup` | | save or replace your API key |
+| `jevmeter doctor` | | check that everything is installed and the key works |
 | `--work DIR` | `<video>.jevmeter/` | cache folder (words, sentences, scores, EDL, parts) |
 
 ## ⚙️ How it works

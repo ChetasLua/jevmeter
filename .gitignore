@@ -9,3 +9,8 @@ __pycache__/
 *.webm
 *.wav
 work/
+.env.*
+!.env.example
+config.json
+jevmeter-downloads/
+scores*.jsonl

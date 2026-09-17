@@ -1,20 +1,124 @@
 {
   "name": "podcast",
   "hook": "I ran this podcast through a live claim meter.",
-  "hook_sub": "every sentence · 5 questions each",
+  "hook_sub": "every sentence \u00b7 5 questions each",
   "index_label": "HOT TAKE INDEX",
   "context_label": "previous_speaker",
   "end_title": "Final score: the whole episode",
   "questions": [
-    {"key": "factual_claim", "label": "Factual claim", "index": false,
-     "instructions": "Does this sentence make a specific, checkable factual claim?"},
-    {"key": "unsupported", "label": "Unsupported claim", "index": true,
-     "instructions": "Does this sentence assert something as true without any evidence, source or reasoning?"},
-    {"key": "overgeneralization", "label": "Overgeneralization", "index": true,
-     "instructions": "Does this sentence make a sweeping generalization (always, never, everyone, nobody)?"},
-    {"key": "emotional_appeal", "label": "Emotional appeal", "index": true,
-     "instructions": "Does this sentence rely mainly on emotion (outrage, fear, ridicule) rather than evidence?"},
-    {"key": "self_promotion", "label": "Self-promotion", "index": true,
-     "instructions": "Is this sentence promoting the speaker, their product, sponsor or brand?"}
+    {
+      "key": "factual_claim",
+      "label": "Factual claim",
+      "index": false,
+      "instructions": "Does `sentence` state a specific fact about the past or present that could be checked?",
+      "criteria": {
+        "true": {
+          "means": "A checkable number, date, study, event or named fact.",
+          "examples": [
+            "The first iPhone launched in 2007.",
+            "Norway gets over 90 percent of its power from hydro."
+          ]
+        },
+        "false": {
+          "means": "An opinion, feeling, preference, story or claim too vague to check.",
+          "examples": [
+            "That was our best episode.",
+            "People underestimate farming."
+          ]
+        }
+      }
+    },
+    {
+      "key": "unsupported",
+      "label": "Unsupported claim",
+      "index": true,
+      "instructions": "Does `sentence` assert a factual-sounding claim as true without any evidence, source or reasoning?",
+      "criteria": {
+        "true": {
+          "means": "A confident factual claim with nothing behind it.",
+          "examples": [
+            "Seed oils are why everyone is sick.",
+            "Cold showers double testosterone, that's a fact."
+          ]
+        },
+        "false": {
+          "means": "A personal preference, clearly hedged opinion, cited evidence, or a plain story.",
+          "examples": [
+            "I prefer running in the morning.",
+            "A 2019 meta-analysis found a small effect.",
+            "I've read claims it helps, not sure."
+          ]
+        }
+      }
+    },
+    {
+      "key": "overgeneralization",
+      "label": "Overgeneralization",
+      "index": true,
+      "instructions": "Does `sentence` itself endorse a sweeping, unqualified claim about a broad group of people or things (a stereotype-like all / every / nobody / always / never)?",
+      "criteria": {
+        "true": {
+          "means": "The speaker asserts, as their own view, that a whole broad group always or never is or does something.",
+          "examples": [
+            "Every founder is a narcissist.",
+            "Nobody under thirty reads anymore.",
+            "Doctors never listen."
+          ]
+        },
+        "false": {
+          "means": "Any of: a hedged quantifier (most, many, a lot of, some); the speaker's own habits; a literal statement about a small, defined set (this season's episodes, our team); reporting or rebutting someone else's generalization; a specific person.",
+          "examples": [
+            "Most people I talk to are burned out.",
+            "I always record the intro last.",
+            "Every episode this season was recorded in Denver.",
+            "Critics say nobody watches TV, but the ratings disagree."
+          ]
+        }
+      }
+    },
+    {
+      "key": "emotional_appeal",
+      "label": "Emotional appeal",
+      "index": true,
+      "instructions": "Does `sentence` rely mainly on outrage, fear or ridicule rather than evidence?",
+      "criteria": {
+        "true": {
+          "means": "Its force comes from making the listener angry, afraid or contemptuous.",
+          "examples": [
+            "If this doesn't make you furious you're not paying attention.",
+            "Imagine being so stupid you believe that."
+          ]
+        },
+        "false": {
+          "means": "It is informational, analytical, or shares a personal feeling without inflaming the listener.",
+          "examples": [
+            "The ruling hinges on the 1996 statute.",
+            "Her story moved me."
+          ]
+        }
+      }
+    },
+    {
+      "key": "self_promotion",
+      "label": "Self-promotion",
+      "index": true,
+      "instructions": "Is `sentence` promoting the speaker's own or a sponsor's product, course, newsletter or brand?",
+      "criteria": {
+        "true": {
+          "means": "An ad read, sponsor mention, discount code, or plug for the speaker's own offering.",
+          "examples": [
+            "My course goes live Monday, link below.",
+            "Use code CAST for 20 percent off."
+          ]
+        },
+        "false": {
+          "means": "It recommends someone else's free resource, thanks the host, or talks about the speaker's past.",
+          "examples": [
+            "There's a great free MIT textbook.",
+            "Thanks for having me."
+          ]
+        }
+      }
+    }
   ]
 }

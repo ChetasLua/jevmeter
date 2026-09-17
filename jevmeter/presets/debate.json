@@ -1,20 +1,121 @@
 {
   "name": "debate",
   "hook": "I gave the debate a live BS meter.",
-  "hook_sub": "every sentence · both speakers · 5 questions each",
+  "hook_sub": "every sentence \u00b7 both speakers \u00b7 5 questions each",
   "index_label": "BS INDEX",
   "context_label": "moderator_question",
   "end_title": "Final score: the whole debate",
   "questions": [
-    {"key": "factual_claim", "label": "Factual claim", "index": false,
-     "instructions": "Does this sentence make a specific, checkable factual claim (a number, event, record or statistic)?"},
-    {"key": "evasive", "label": "Evasive", "index": true,
-     "instructions": "Is this sentence evasive: talking around the issue instead of addressing it directly?"},
-    {"key": "contradicts_earlier", "label": "Contradicts self", "index": true, "flag": 0.5,
-     "instructions": "Does this sentence contradict something this same speaker said earlier (listed under earlier_statements)?"},
-    {"key": "emotional_appeal", "label": "Emotional appeal", "index": true,
-     "instructions": "Does this sentence rely mainly on emotional appeal (fear, anger, pride, ridicule) rather than evidence or policy?"},
-    {"key": "dodged_question", "label": "Dodged question", "index": true,
-     "instructions": "Given the moderator's question, does this sentence avoid answering what was actually asked?"}
+    {
+      "key": "factual_claim",
+      "label": "Factual claim",
+      "index": false,
+      "instructions": "Does `sentence` state a specific fact about the past or present that could be checked against a record?",
+      "criteria": {
+        "true": {
+          "means": "It names a checkable number, date, vote, event, law or statistic.",
+          "examples": [
+            "Unemployment fell from 6.1 to 4.2 percent in my second term.",
+            "I voted against the 2019 farm bill."
+          ]
+        },
+        "false": {
+          "means": "An opinion, boast, value, feeling, a claim too vague to check, or a promise, goal, plan or hypothetical about the future, even when it contains a number.",
+          "examples": [
+            "I have the best record anyone has ever seen.",
+            "I will build fifty thousand homes in my first term.",
+            "Even if it cost a trillion, it would be worth it."
+          ]
+        }
+      }
+    },
+    {
+      "key": "evasive",
+      "label": "Evasive",
+      "index": true,
+      "instructions": "Is `sentence` talking around the issue raised in `moderator_question` instead of addressing it?",
+      "criteria": {
+        "true": {
+          "means": "It deflects, changes the subject, attacks instead of answering, or retreats into platitudes.",
+          "examples": [
+            "The real issue is my opponent's record.",
+            "We'll look at all options and do what's right."
+          ]
+        },
+        "false": {
+          "means": "It addresses the issue directly, even if briefly, bluntly or with a short courtesy first.",
+          "examples": [
+            "We pay for it by repealing the corporate rate cut.",
+            "Thank you, and the answer is a tax on fortunes above fifty million."
+          ]
+        }
+      }
+    },
+    {
+      "key": "contradicts_earlier",
+      "label": "Contradicts self",
+      "index": true,
+      "instructions": "Does `sentence` contradict something the same speaker said in `earlier_statements`?",
+      "criteria": {
+        "true": {
+          "means": "It asserts the opposite of an earlier statement by this speaker.",
+          "examples": [
+            "Earlier: 'I proposed raising the gas tax.' Now: 'I never supported a gas tax increase.'"
+          ]
+        },
+        "false": {
+          "means": "It repeats, extends or is unrelated to earlier statements, openly explains a change of mind, or criticizes the opponent.",
+          "examples": [
+            "'My opponent flip-flops on taxes.'",
+            "'I used to oppose it and changed my mind after the report.'"
+          ]
+        }
+      },
+      "flag": 0.5
+    },
+    {
+      "key": "emotional_appeal",
+      "label": "Emotional appeal",
+      "index": true,
+      "instructions": "Does `sentence` rely mainly on stirring emotion (fear, anger, ridicule, flattery) rather than on evidence or policy?",
+      "criteria": {
+        "true": {
+          "means": "Its force comes from fear, outrage, ridicule, or flattering the audience.",
+          "examples": [
+            "They are coming for your jobs and your children's future.",
+            "Every mother should be terrified of him."
+          ]
+        },
+        "false": {
+          "means": "It is mainly informational, a policy point, a number, or a calm statement, even if it mentions feelings or pride.",
+          "examples": [
+            "The CBO scored the plan at 1.9 trillion.",
+            "I'm proud of the bill: it capped insulin at 35 dollars."
+          ]
+        }
+      }
+    },
+    {
+      "key": "dodged_question",
+      "label": "Dodged question",
+      "index": true,
+      "instructions": "Given `moderator_question` and `answer_so_far`, is `sentence` part of not answering what was asked?",
+      "criteria": {
+        "true": {
+          "means": "The answer so far plus this sentence still avoids the actual question: filler, attacks, unrelated talking points.",
+          "examples": [
+            "Question about paying for a plan -> 'Let me say how honored I am to be here.'",
+            "-> 'My opponent has done nothing for thirty years.'"
+          ]
+        },
+        "false": {
+          "means": "This sentence answers the question, gives part of the answer, or is a brief courtesy immediately before or after a direct answer.",
+          "examples": [
+            "'We pay for it with a minimum corporate tax.'",
+            "'Thank you, and let me answer directly.'"
+          ]
+        }
+      }
+    }
   ]
 }

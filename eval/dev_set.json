@@ -1,0 +1,1229 @@
+[
+ {
+  "preset": "debate",
+  "question": "factual_claim",
+  "label": 1,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Unemployment in our state fell from 6.1 percent to 4.2 percent during my second term."
+ },
+ {
+  "preset": "debate",
+  "question": "factual_claim",
+  "label": 1,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "I voted against the 2019 farm subsidy bill, and the record shows it."
+ },
+ {
+  "preset": "debate",
+  "question": "factual_claim",
+  "label": 1,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "The bridge project came in 40 million dollars over budget."
+ },
+ {
+  "preset": "debate",
+  "question": "factual_claim",
+  "label": 0,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "I have the best record on jobs that anyone has ever seen."
+ },
+ {
+  "preset": "debate",
+  "question": "factual_claim",
+  "label": 0,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Two things matter tonight: honesty and courage."
+ },
+ {
+  "preset": "debate",
+  "question": "factual_claim",
+  "label": 0,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "I believe our schools can be the best in the nation."
+ },
+ {
+  "preset": "debate",
+  "question": "evasive",
+  "label": 1,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Look, what people really care about is whether they feel safe walking home at night."
+ },
+ {
+  "preset": "debate",
+  "question": "evasive",
+  "label": 1,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "That's a great question, and I think the bigger issue is my opponent's record."
+ },
+ {
+  "preset": "debate",
+  "question": "evasive",
+  "label": 1,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We'll look at all the options and do what's right for the American people."
+ },
+ {
+  "preset": "debate",
+  "question": "evasive",
+  "label": 0,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We pay for it by repealing the 2017 corporate rate cut, which raises about 1.3 trillion."
+ },
+ {
+  "preset": "debate",
+  "question": "evasive",
+  "label": 0,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Thank you, and the answer is a two-cent tax on fortunes above fifty million dollars."
+ },
+ {
+  "preset": "debate",
+  "question": "evasive",
+  "label": 0,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "I won't pretend it's free: it means cutting the defense procurement budget by eight percent."
+ },
+ {
+  "preset": "debate",
+  "question": "contradicts_earlier",
+  "label": 1,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [
+   "In 2021 I proposed raising the gas tax by ten cents to fix our roads."
+  ],
+  "answer_so_far": "",
+  "sentence": "I have never supported a gas tax increase, not once."
+ },
+ {
+  "preset": "debate",
+  "question": "contradicts_earlier",
+  "label": 1,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [
+   "Crime was my number one priority from the day I took office."
+  ],
+  "answer_so_far": "",
+  "sentence": "Crime was never my focus as governor."
+ },
+ {
+  "preset": "debate",
+  "question": "contradicts_earlier",
+  "label": 1,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [
+   "I will fight every day and I promise we will hit fifty thousand new homes."
+  ],
+  "answer_so_far": "",
+  "sentence": "I don't set targets, because targets are gimmicks."
+ },
+ {
+  "preset": "debate",
+  "question": "contradicts_earlier",
+  "label": 0,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [
+   "I have always supported lower taxes for working families."
+  ],
+  "answer_so_far": "",
+  "sentence": "My opponent flip-flops on taxes every single year."
+ },
+ {
+  "preset": "debate",
+  "question": "contradicts_earlier",
+  "label": 0,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [
+   "I have always supported lower taxes for working families."
+  ],
+  "answer_so_far": "",
+  "sentence": "And again, I support lower taxes for working families."
+ },
+ {
+  "preset": "debate",
+  "question": "contradicts_earlier",
+  "label": 0,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [
+   "In 2018 I opposed the pipeline."
+  ],
+  "answer_so_far": "",
+  "sentence": "I used to oppose the pipeline, and I changed my mind after the safety report came out."
+ },
+ {
+  "preset": "debate",
+  "question": "emotional_appeal",
+  "label": 1,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "They are coming for your jobs, your homes and your children's future."
+ },
+ {
+  "preset": "debate",
+  "question": "emotional_appeal",
+  "label": 1,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Every mother in this country should be terrified of what he would do."
+ },
+ {
+  "preset": "debate",
+  "question": "emotional_appeal",
+  "label": 1,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "You, the hardworking people of this great state, deserve a hero, and I will be that hero."
+ },
+ {
+  "preset": "debate",
+  "question": "emotional_appeal",
+  "label": 0,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "The CBO scored the plan at 1.9 trillion over ten years."
+ },
+ {
+  "preset": "debate",
+  "question": "emotional_appeal",
+  "label": 0,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "I'm proud of the bill, and here is what it did: it capped insulin at 35 dollars."
+ },
+ {
+  "preset": "debate",
+  "question": "emotional_appeal",
+  "label": 0,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We can disagree about this without questioning each other's motives."
+ },
+ {
+  "preset": "debate",
+  "question": "dodged_question",
+  "label": 1,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Let me first say how honored I am to be on this stage in this beautiful city."
+ },
+ {
+  "preset": "debate",
+  "question": "dodged_question",
+  "label": 1,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "Thank you for the question.",
+  "sentence": "My opponent has been in Washington for thirty years and done nothing."
+ },
+ {
+  "preset": "debate",
+  "question": "dodged_question",
+  "label": 1,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "What I can tell you is that families are hurting and I understand their pain."
+ },
+ {
+  "preset": "debate",
+  "question": "dodged_question",
+  "label": 0,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "Thank you.",
+  "sentence": "We pay for it with a minimum tax on corporations that report billions in profit but pay nothing."
+ },
+ {
+  "preset": "debate",
+  "question": "dodged_question",
+  "label": 0,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Thank you, and let me answer directly."
+ },
+ {
+  "preset": "debate",
+  "question": "dodged_question",
+  "label": 0,
+  "context": "Your plan would add two trillion dollars to the deficit. How will you pay for it?",
+  "earlier_statements": [],
+  "answer_so_far": "We pay for it with a minimum tax on corporations.",
+  "sentence": "That closes about half the gap, and the rest comes from ending oil subsidies."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "specific_number",
+  "label": 1,
+  "context": "Can you walk us through the quarter?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Revenue grew 14 percent year over year to 2.3 billion dollars."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "specific_number",
+  "label": 1,
+  "context": "What's your margin outlook?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We now expect gross margin between 41 and 42 percent for the full year."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "specific_number",
+  "label": 1,
+  "context": "How did volumes look?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We shipped just under 180,000 units in the quarter."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "specific_number",
+  "label": 0,
+  "context": "Can you walk us through the quarter?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We had a very strong quarter across every region."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "specific_number",
+  "label": 0,
+  "context": "What's your margin outlook?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Thanks, Sarah, happy to take that one."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "specific_number",
+  "label": 0,
+  "context": "How did volumes look?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We'll share more detailed numbers at our investor day."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "vague_guidance",
+  "label": 1,
+  "context": "What should we expect for next year?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We feel very good about the trajectory of the business going forward."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "vague_guidance",
+  "label": 1,
+  "context": "What should we expect for next year?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We expect continued momentum as we move through the back half."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "vague_guidance",
+  "label": 1,
+  "context": "Where do margins go from here?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Over time we see meaningful opportunity to expand margins."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "vague_guidance",
+  "label": 0,
+  "context": "What should we expect for next year?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We're guiding to revenue of 9.1 to 9.3 billion for next year."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "vague_guidance",
+  "label": 0,
+  "context": "Where do margins go from here?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Last quarter operating margin was 18 percent."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "vague_guidance",
+  "label": 0,
+  "context": "Any update on the restructuring?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We will close the Dayton plant by the end of March."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "blame_external",
+  "label": 1,
+  "context": "Why did you miss on revenue?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "The shortfall was driven almost entirely by currency headwinds in Europe."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "blame_external",
+  "label": 1,
+  "context": "Why were sales down?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Unseasonably warm weather hurt demand for our winter lineup."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "blame_external",
+  "label": 1,
+  "context": "What happened to margins?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Port congestion and the new tariffs squeezed our margins this quarter."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "blame_external",
+  "label": 0,
+  "context": "Why were sales down?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Frankly, we priced the new tier too high and customers noticed."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "blame_external",
+  "label": 0,
+  "context": "Can you size the FX impact?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Currency added about two points to growth this quarter."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "blame_external",
+  "label": 0,
+  "context": "Why did you miss on revenue?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We made the decision to exit low-margin wholesale accounts, which cut revenue by design."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "hype_language",
+  "label": 1,
+  "context": "How is the launch going?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "This is an absolutely transformational moment for our company."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "hype_language",
+  "label": 1,
+  "context": "How is the launch going?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Our new platform is truly game-changing and unlike anything the industry has seen."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "hype_language",
+  "label": 1,
+  "context": "Any color on demand?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "The demand we're seeing is simply unprecedented and incredible."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "hype_language",
+  "label": 0,
+  "context": "How is the launch going?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "The launch added 40,000 paying customers in six weeks."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "hype_language",
+  "label": 0,
+  "context": "Any color on demand?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Demand was solid in North America and softer in Asia."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "hype_language",
+  "label": 0,
+  "context": "How is the launch going?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We're pleased with the progress, and churn dropped to 2.1 percent."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "dodged_question",
+  "label": 1,
+  "context": "Are you planning more layoffs this year?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Well, what I'd really emphasize is the strength of our culture."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "dodged_question",
+  "label": 1,
+  "context": "Is the Apex acquisition still on track to close in Q3?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We don't comment on speculation, but we're excited about our roadmap."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "dodged_question",
+  "label": 1,
+  "context": "Why did free cash flow turn negative?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "I think the bigger story this quarter is our AI strategy."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "dodged_question",
+  "label": 0,
+  "context": "Are you planning more layoffs this year?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Yes, we expect to reduce headcount by about 4 percent in the first half."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "dodged_question",
+  "label": 0,
+  "context": "Why did free cash flow turn negative?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Free cash flow turned negative because we prepaid 600 million for chip capacity."
+ },
+ {
+  "preset": "earnings_call",
+  "question": "dodged_question",
+  "label": 0,
+  "context": "Is the Apex acquisition still on track to close in Q3?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Good question, and the short answer is yes, it closes in August."
+ },
+ {
+  "preset": "podcast",
+  "question": "factual_claim",
+  "label": 1,
+  "context": "What surprised you in the research?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "The average American spends about four hours a day on their phone, according to the Pew survey."
+ },
+ {
+  "preset": "podcast",
+  "question": "factual_claim",
+  "label": 1,
+  "context": "When did smartphones really take off?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "The first iPhone launched in 2007."
+ },
+ {
+  "preset": "podcast",
+  "question": "factual_claim",
+  "label": 1,
+  "context": "Who is doing clean energy right?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Norway gets over ninety percent of its electricity from hydropower."
+ },
+ {
+  "preset": "podcast",
+  "question": "factual_claim",
+  "label": 0,
+  "context": "What was your favorite episode?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Honestly, that was the best episode we ever recorded."
+ },
+ {
+  "preset": "podcast",
+  "question": "factual_claim",
+  "label": 0,
+  "context": "What's something people get wrong?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "I think people underestimate how hard farming is."
+ },
+ {
+  "preset": "podcast",
+  "question": "factual_claim",
+  "label": 0,
+  "context": "When did smartphones really take off?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Numbers aside, it just felt different that year."
+ },
+ {
+  "preset": "podcast",
+  "question": "unsupported",
+  "label": 1,
+  "context": "What's your health hot take?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Seed oils are the real reason everyone is sick now."
+ },
+ {
+  "preset": "podcast",
+  "question": "unsupported",
+  "label": 1,
+  "context": "Any conspiracy you half believe?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "The moon landing footage was obviously staged in a studio."
+ },
+ {
+  "preset": "podcast",
+  "question": "unsupported",
+  "label": 1,
+  "context": "What's in your morning routine?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Cold showers double your testosterone, that's just a fact."
+ },
+ {
+  "preset": "podcast",
+  "question": "unsupported",
+  "label": 0,
+  "context": "What's in your morning routine?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "I personally prefer running in the morning, it just suits me."
+ },
+ {
+  "preset": "podcast",
+  "question": "unsupported",
+  "label": 0,
+  "context": "What's your health hot take?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "A 2019 meta-analysis of 30 trials found only a small effect on mood."
+ },
+ {
+  "preset": "podcast",
+  "question": "unsupported",
+  "label": 0,
+  "context": "Any supplement you'd try?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "I don't know if it's true, but I've read claims that it helps sleep."
+ },
+ {
+  "preset": "podcast",
+  "question": "overgeneralization",
+  "label": 1,
+  "context": "What are founders like?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Every single startup founder is a narcissist."
+ },
+ {
+  "preset": "podcast",
+  "question": "overgeneralization",
+  "label": 1,
+  "context": "What's changed with young people?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Nobody under thirty reads books anymore."
+ },
+ {
+  "preset": "podcast",
+  "question": "overgeneralization",
+  "label": 1,
+  "context": "How was your hospital experience?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Doctors never listen to their patients."
+ },
+ {
+  "preset": "podcast",
+  "question": "overgeneralization",
+  "label": 0,
+  "context": "What are founders like?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Some of the founders I've met were pretty self-absorbed."
+ },
+ {
+  "preset": "podcast",
+  "question": "overgeneralization",
+  "label": 0,
+  "context": "How was your hospital experience?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "My doctor didn't really listen to me that day."
+ },
+ {
+  "preset": "podcast",
+  "question": "overgeneralization",
+  "label": 0,
+  "context": "What's your sleep routine?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "I never drink coffee after 2 pm."
+ },
+ {
+  "preset": "podcast",
+  "question": "emotional_appeal",
+  "label": 1,
+  "context": "What did you think of the ruling?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "If this doesn't make you furious, you're not paying attention."
+ },
+ {
+  "preset": "podcast",
+  "question": "emotional_appeal",
+  "label": 1,
+  "context": "Who benefits from the policy?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "These people are laughing at you while your kids pay the price."
+ },
+ {
+  "preset": "podcast",
+  "question": "emotional_appeal",
+  "label": 1,
+  "context": "What about the other side's argument?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Imagine being so stupid that you actually believe that."
+ },
+ {
+  "preset": "podcast",
+  "question": "emotional_appeal",
+  "label": 0,
+  "context": "What did you think of the ruling?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "The ruling hinges on a narrow reading of the 1996 statute."
+ },
+ {
+  "preset": "podcast",
+  "question": "emotional_appeal",
+  "label": 0,
+  "context": "What stuck with you?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "I was genuinely moved when she told me that story, and it changed how I report."
+ },
+ {
+  "preset": "podcast",
+  "question": "emotional_appeal",
+  "label": 0,
+  "context": "What about the other side's argument?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Their strongest argument is that the cost falls on small landlords."
+ },
+ {
+  "preset": "podcast",
+  "question": "self_promotion",
+  "label": 1,
+  "context": "Where can people learn more?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "By the way, my new course on this goes live Monday, link in the description."
+ },
+ {
+  "preset": "podcast",
+  "question": "self_promotion",
+  "label": 1,
+  "context": "",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "This episode is brought to you by SleepWell mattresses, use code CAST for 20 percent off."
+ },
+ {
+  "preset": "podcast",
+  "question": "self_promotion",
+  "label": 1,
+  "context": "Anything else?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "If you liked this, subscribe to my newsletter where I go way deeper."
+ },
+ {
+  "preset": "podcast",
+  "question": "self_promotion",
+  "label": 0,
+  "context": "Where can people learn more?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "There's a great free textbook on this by an MIT professor."
+ },
+ {
+  "preset": "podcast",
+  "question": "self_promotion",
+  "label": 0,
+  "context": "What did you learn from failing?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "I made a lot of mistakes in my first company."
+ },
+ {
+  "preset": "podcast",
+  "question": "self_promotion",
+  "label": 0,
+  "context": "Anything else?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Thanks for having me, I really enjoyed this."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "concrete_metric",
+  "label": 1,
+  "context": "What traction do you have?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We have 12,000 paying teams and net revenue retention of 128 percent."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "concrete_metric",
+  "label": 1,
+  "context": "What does it actually do?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "It cuts invoice processing time from nine days to under four hours."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "concrete_metric",
+  "label": 1,
+  "context": "How much does it cost?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Pricing starts at 49 dollars per seat per month."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "concrete_metric",
+  "label": 0,
+  "context": "What traction do you have?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We have massive traction and customers love us."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "concrete_metric",
+  "label": 0,
+  "context": "Why you?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We're the number one choice for modern teams."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "concrete_metric",
+  "label": 0,
+  "context": "How much does it cost?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We'll talk numbers on the next call."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "buzzwords",
+  "label": 1,
+  "context": "What does it actually do?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We're an AI-native, blockchain-enabled platform synergizing next-gen workflows."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "buzzwords",
+  "label": 1,
+  "context": "What does it actually do?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Our disruptive paradigm leverages holistic data to empower revolutionary outcomes."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "buzzwords",
+  "label": 1,
+  "context": "How would you describe it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "It's a next-generation, cloud-native, AI-first experience layer."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "buzzwords",
+  "label": 0,
+  "context": "What does it actually do?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "It reads your bank statements and flags duplicate vendor charges."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "buzzwords",
+  "label": 0,
+  "context": "Where is the AI?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We use a small language model to label support tickets by urgency."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "buzzwords",
+  "label": 0,
+  "context": "How would you describe it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "It runs in your browser and syncs to Google Sheets every hour."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "overpromise",
+  "label": 1,
+  "context": "Why should I switch?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "You will literally never have to think about taxes again."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "overpromise",
+  "label": 1,
+  "context": "What results can I expect?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We guarantee your revenue will triple in ninety days."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "overpromise",
+  "label": 1,
+  "context": "How secure is it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "It eliminates every security risk your company has."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "overpromise",
+  "label": 0,
+  "context": "What results can I expect?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Customers typically see support volume drop by 15 to 25 percent."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "overpromise",
+  "label": 0,
+  "context": "Why should I switch?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "It won't fix a bad product, but it will tell you where users drop off."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "overpromise",
+  "label": 0,
+  "context": "How secure is it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We're SOC 2 Type II certified and pen-tested twice a year."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "urgency_pressure",
+  "label": 1,
+  "context": "Can I think about it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "This founder pricing disappears at midnight tonight."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "urgency_pressure",
+  "label": 1,
+  "context": "What are next steps?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We only have three onboarding slots left this quarter, so you need to sign today."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "urgency_pressure",
+  "label": 1,
+  "context": "Can I think about it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Your competitors are signing up right now, every day you wait you fall behind."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "urgency_pressure",
+  "label": 0,
+  "context": "Can I think about it?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Take a couple of weeks with the free trial and decide then."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "urgency_pressure",
+  "label": 0,
+  "context": "What are next steps?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Onboarding usually takes about ten business days."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "urgency_pressure",
+  "label": 0,
+  "context": "Is there a discount?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "The 2024 plan is cheaper, and it's still available."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "vague_benefit",
+  "label": 1,
+  "context": "What's the benefit?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "It just makes your whole team's life so much better."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "vague_benefit",
+  "label": 1,
+  "context": "Why does it matter?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "You'll unlock your true potential as an organization."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "vague_benefit",
+  "label": 1,
+  "context": "What's the benefit?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "It brings a whole new level of clarity to everything you do."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "vague_benefit",
+  "label": 0,
+  "context": "What's the benefit?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "It saves each account manager about six hours of data entry a week."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "vague_benefit",
+  "label": 0,
+  "context": "Why does it matter?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "You get a single dashboard showing overdue invoices by customer."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "vague_benefit",
+  "label": 0,
+  "context": "What's the benefit?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Your reps stop copying notes from calls into Salesforce by hand."
+ },
+ {
+  "preset": "podcast",
+  "question": "overgeneralization",
+  "label": 0,
+  "context": "How's the industry feeling?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Most people I talk to at conferences say they're burned out."
+ },
+ {
+  "preset": "podcast",
+  "question": "overgeneralization",
+  "label": 0,
+  "context": "Any advice for beginners?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "A lot of new runners get shin splints in the first month."
+ },
+ {
+  "preset": "podcast",
+  "question": "overgeneralization",
+  "label": 0,
+  "context": "How do you edit the show?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "I always record the intro last, it's just my habit."
+ },
+ {
+  "preset": "podcast",
+  "question": "overgeneralization",
+  "label": 0,
+  "context": "Is TV dead?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Critics say nobody watches cable anymore, but the ratings don't show that."
+ },
+ {
+  "preset": "podcast",
+  "question": "overgeneralization",
+  "label": 0,
+  "context": "Where do you record?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Every episode this season was recorded in our Denver studio."
+ },
+ {
+  "preset": "podcast",
+  "question": "overgeneralization",
+  "label": 1,
+  "context": "Road trip stories?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Men just never ask for directions, it's how they're wired."
+ },
+ {
+  "preset": "podcast",
+  "question": "overgeneralization",
+  "label": 1,
+  "context": "Who do you trust?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "All politicians are liars, every single one."
+ },
+ {
+  "preset": "debate",
+  "question": "factual_claim",
+  "label": 0,
+  "context": "What is your housing plan?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "I will build fifty thousand new homes in my first term."
+ },
+ {
+  "preset": "debate",
+  "question": "factual_claim",
+  "label": 0,
+  "context": "Is the plan affordable?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Even if it cost a trillion dollars, it would be worth it."
+ },
+ {
+  "preset": "debate",
+  "question": "factual_claim",
+  "label": 0,
+  "context": "What about traffic?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "My goal is to cut commute times by twenty percent."
+ },
+ {
+  "preset": "debate",
+  "question": "factual_claim",
+  "label": 1,
+  "context": "What is your housing plan?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "The city approved only 1,900 housing permits last year."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "overpromise",
+  "label": 0,
+  "context": "What results can I expect?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "In our pilot with 40 clinics, no-shows fell by 30 percent."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "overpromise",
+  "label": 0,
+  "context": "What results can I expect?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Our best customers doubled output, though most see smaller gains."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "overpromise",
+  "label": 0,
+  "context": "How fast is setup?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "We aim to make onboarding take under a day."
+ },
+ {
+  "preset": "sales_pitch",
+  "question": "overpromise",
+  "label": 1,
+  "context": "What results can I expect?",
+  "earlier_statements": [],
+  "answer_so_far": "",
+  "sentence": "Every single customer who uses it becomes profitable within a month."
+ }
+]

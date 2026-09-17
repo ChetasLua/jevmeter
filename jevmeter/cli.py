@@ -45,13 +45,35 @@ def chart_range(tl):
     return round(lo, 2), round(hi, 2)
 
 
+def fetch_if_url(video):
+    """Allow a link instead of a file (needs `pip install yt-dlp`). Only use videos you have the right to use."""
+    if not video.startswith(("http://", "https://")):
+        return os.path.expanduser(video)
+    try:
+        import yt_dlp
+    except ImportError:
+        sys.exit("To use a link, install yt-dlp first:  pip install yt-dlp   (or download the video and pass the file)")
+    out_dir = os.path.abspath("jevmeter-downloads")
+    os.makedirs(out_dir, exist_ok=True)
+    opts = {"outtmpl": os.path.join(out_dir, "%(title).60s [%(id)s].%(ext)s"), "format": "bv*[height<=1080][ext=mp4]+ba[ext=m4a]/b[height<=1080]/b",
+            "merge_output_format": "mp4", "ffmpeg_location": ffmpeg(), "quiet": True, "noprogress": False}
+    log(f"downloading {video}")
+    with yt_dlp.YoutubeDL(opts) as ydl:
+        info = ydl.extract_info(video, download=True)
+        path = ydl.prepare_filename(info)
+    base = os.path.splitext(path)[0] + ".mp4"
+    return base if os.path.exists(base) else path
+
+
 def cmd_run(a):
     from . import audio, plan, score, transcribe
 
-    key = os.environ.get("TYPESAFE_API_KEY")
+    from .config import get_key
+    key = get_key()
     if not key:
-        sys.exit("set TYPESAFE_API_KEY (create one at https://console.typesafe.ai/keys)")
-    video = os.path.abspath(a.video)
+        sys.exit("No TypeSafe API key found. Run `jevmeter setup` (or set TYPESAFE_API_KEY). Get a key at https://console.typesafe.ai/keys")
+    video = fetch_if_url(a.video)
+    video = os.path.abspath(video)
     if not os.path.exists(video):
         sys.exit(f"no such video: {video}")
     work = os.path.abspath(a.work or os.path.splitext(video)[0] + ".jevmeter")
@@ -145,7 +167,147 @@ def render_parts(work, edl, workers):
         sys.exit(f"render failed (exit codes {codes})")
 
 
+PRESET_BLURBS = [
+    ("debate", "🦉", "Debates & interviews", "BS index: evasive, dodged the question, emotional appeal, contradicts self"),
+    ("earnings_call", "🦊", "Earnings calls & investor Q&A", "Spin index: vague guidance, blaming outside factors, hype, dodges"),
+    ("podcast", "🐉", "Podcasts & YouTube talk", "Hot take index: unsupported claims, overgeneralizations, outrage, self-promotion"),
+    ("sales_pitch", "🦚", "Pitches, launches & ads", "Hype index: buzzwords, overpromises, urgency pressure, vague benefits"),
+]
+
+
+def _ask(prompt, default=None):
+    tip = f" [{default}]" if default not in (None, "") else ""
+    try:
+        v = input(f"{prompt}{tip}: ").strip()
+    except EOFError:
+        v = ""
+    return v or (default if default is not None else "")
+
+
+def _clean_path(p):
+    # terminals wrap dragged-in paths in quotes or escape spaces
+    p = p.strip().strip("'").strip('"').replace("\\ ", " ")
+    return os.path.expanduser(p)
+
+
+def cmd_setup(a=None):
+    import getpass
+    from .config import check_key, get_key, mask, save_key
+    print("\n🔑  TypeSafe API key")
+    print("    Create one (free to start) at https://console.typesafe.ai/keys")
+    cur = get_key()
+    if cur:
+        print(f"    Current key: {mask(cur)}")
+    key = getpass.getpass("    Paste your key (hidden, press Enter to keep the current one): ").strip()
+    if not key:
+        if not cur:
+            sys.exit("    No key entered.")
+        key = cur
+    ok, msg = check_key(key)
+    print(("    ✅ " if ok else "    ❌ ") + msg)
+    if not ok:
+        sys.exit(1)
+    path = save_key(key)
+    print(f"    Saved to {path} (only your user can read it; it is never stored in the project folder).\n")
+    return key
+
+
+def cmd_doctor(a=None):
+    import importlib.util
+    from .config import check_key, get_key, mask
+    good = True
+    def line(ok, text):
+        nonlocal good
+        good &= ok
+        print(("  ✅ " if ok else "  ❌ ") + text)
+    print("\njevmeter doctor")
+    line(sys.version_info >= (3, 9), f"Python {sys.version.split()[0]}")
+    try:
+        line(True, f"ffmpeg: {ffmpeg()}")
+    except SystemExit:
+        line(False, "ffmpeg missing: pip install imageio-ffmpeg")
+    backend = "mlx-whisper" if importlib.util.find_spec("mlx_whisper") else ("faster-whisper" if importlib.util.find_spec("faster_whisper") else None)
+    line(bool(backend), f"speech-to-text: {backend}" if backend else "speech-to-text missing: pip install 'jevmeter[mlx]' (Apple Silicon) or 'jevmeter[cpu]'")
+    key = get_key()
+    if not key:
+        line(False, "TypeSafe API key: not set, run `jevmeter setup`")
+    else:
+        ok, msg = check_key(key)
+        line(ok, f"TypeSafe API key {mask(key)}: {msg}")
+    print("\n  All good, run `jevmeter` to make a video.\n" if good else "\n  Fix the ❌ items above, then run `jevmeter doctor` again.\n")
+    return good
+
+
+def wizard():
+    from .config import get_key
+    print("""
+   ┌──────────────────────────────────────────────┐
+   │  JEVMETER · a live BS meter for any video      │
+   └──────────────────────────────────────────────┘
+""")
+    if not get_key():
+        cmd_setup()
+    print("🎬  Step 1: your video")
+    print("    Drag the video file into this window (or paste a path or link), then press Enter.")
+    video = ""
+    while not video:
+        v = _clean_path(_ask("    Video"))
+        if v.startswith(("http://", "https://")) or os.path.exists(v):
+            video = v
+        else:
+            print("    Can't find that file; try dragging it in again.")
+    print("\n🎴  Step 2: pick a preset")
+    for i, (name, icon, title, desc) in enumerate(PRESET_BLURBS, 1):
+        print(f"    {i}. {icon}  {title:32} {desc}")
+    choice = _ask("    Number", "1")
+    preset = PRESET_BLURBS[int(choice) - 1][0] if choice.isdigit() and 1 <= int(choice) <= len(PRESET_BLURBS) else "debate"
+    print("\n👥  Step 3: who is speaking?")
+    print("    Two people (debate, interview)? A transcript with `NAME: text` lines gives each one their own meter.")
+    tr = _clean_path(_ask("    Transcript file (press Enter to skip = one meter for everyone)", ""))
+    args = ["run", video, "--preset", preset]
+    if tr:
+        if not os.path.exists(tr):
+            print("    Transcript not found, continuing without it.")
+        else:
+            from .transcribe import parse_transcript
+            turns = parse_transcript(tr)
+            counts = {}
+            for t in turns:
+                counts[t["speaker"]] = counts.get(t["speaker"], 0) + len(t["text"].split())
+            names = sorted(counts, key=counts.get, reverse=True)
+            print("    Speakers found: " + ", ".join(f"{n} ({counts[n]} words)" for n in names))
+            default = ",".join(names[:2])
+            sp = _ask("    Which 1-2 speakers get a meter? (comma separated)", default)
+            args += ["--transcript", tr, "--speakers", sp]
+    else:
+        name = _ask("    Name to show on the meter", "Speaker")
+        args += ["--speakers", name]
+    print("\n✂️   Step 4: what kind of video do you want?")
+    print("    1. Highlights: best moments + hyperlapse + final scoreboard (about 1-2 min, great for posting)")
+    print("    2. Full: meter over the whole video (or a part of it)")
+    mode = _ask("    Number", "1")
+    if mode == "2":
+        args += ["--mode", "full"]
+        st = _ask("    Start at second (Enter = beginning)", "")
+        en = _ask("    End at second (Enter = end)", "")
+        if st:
+            args += ["--start", st]
+        if en:
+            args += ["--end", en]
+    print("\n🚀  Here we go! Transcribing, scoring every sentence with Jev, then rendering.")
+    print("    Tip: next time you can run the same thing directly:")
+    print("    jevmeter " + " ".join(f'"{x}"' if " " in x else x for x in args) + "\n")
+    main(args)
+
+
 def main(argv=None):
+    try:
+        sys.stdout.reconfigure(line_buffering=True)
+    except Exception:
+        pass
+    argv = sys.argv[1:] if argv is None else argv
+    if not argv:
+        return wizard()
     ap = argparse.ArgumentParser(prog="jevmeter", description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--version", action="version", version=__version__)
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -171,6 +333,8 @@ def main(argv=None):
     r.add_argument("--price", type=float, default=0.042, help="$ per 1M input tokens for the cost counter (check console.typesafe.ai)")
     r.add_argument("--score-only", action="store_true", help="stop after scoring and print the summary JSON")
     r.set_defaults(func=cmd_run)
+    sub.add_parser("setup", help="save your TypeSafe API key (stored in your user config, never in the project)").set_defaults(func=cmd_setup)
+    sub.add_parser("doctor", help="check Python, ffmpeg, speech-to-text and your API key").set_defaults(func=cmd_doctor)
     a = ap.parse_args(argv)
     a.func(a)
 

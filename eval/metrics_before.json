@@ -1,0 +1,122 @@
+{
+ "debate/contradicts_earlier": {
+  "auc": 1.0,
+  "acc": 1.0,
+  "pos": 0.962,
+  "neg": 0.096
+ },
+ "debate/dodged_question": {
+  "auc": 1.0,
+  "acc": 1.0,
+  "pos": 0.942,
+  "neg": 0.154
+ },
+ "debate/emotional_appeal": {
+  "auc": 1.0,
+  "acc": 1.0,
+  "pos": 0.958,
+  "neg": 0.16399999999999998
+ },
+ "debate/evasive": {
+  "auc": 1.0,
+  "acc": 1.0,
+  "pos": 0.9219999999999999,
+  "neg": 0.066
+ },
+ "debate/factual_claim": {
+  "auc": 1.0,
+  "acc": 0.8,
+  "pos": 0.976,
+  "neg": 0.29
+ },
+ "earnings_call/blame_external": {
+  "auc": 1.0,
+  "acc": 1.0,
+  "pos": 0.9359999999999999,
+  "neg": 0.11199999999999999
+ },
+ "earnings_call/dodged_question": {
+  "auc": 1.0,
+  "acc": 1.0,
+  "pos": 0.962,
+  "neg": 0.074
+ },
+ "earnings_call/hype_language": {
+  "auc": 1.0,
+  "acc": 1.0,
+  "pos": 0.962,
+  "neg": 0.054000000000000006
+ },
+ "earnings_call/specific_number": {
+  "auc": 1.0,
+  "acc": 0.9,
+  "pos": 0.884,
+  "neg": 0.016
+ },
+ "earnings_call/vague_guidance": {
+  "auc": 1.0,
+  "acc": 1.0,
+  "pos": 0.932,
+  "neg": 0.04
+ },
+ "podcast/emotional_appeal": {
+  "auc": 1.0,
+  "acc": 1.0,
+  "pos": 0.952,
+  "neg": 0.11599999999999999
+ },
+ "podcast/factual_claim": {
+  "auc": 1.0,
+  "acc": 1.0,
+  "pos": 0.9480000000000001,
+  "neg": 0.174
+ },
+ "podcast/overgeneralization": {
+  "auc": 0.96,
+  "acc": 0.7,
+  "pos": 0.978,
+  "neg": 0.588
+ },
+ "podcast/self_promotion": {
+  "auc": 1.0,
+  "acc": 1.0,
+  "pos": 0.974,
+  "neg": 0.05
+ },
+ "podcast/unsupported": {
+  "auc": 1.0,
+  "acc": 0.8,
+  "pos": 0.954,
+  "neg": 0.368
+ },
+ "sales_pitch/buzzwords": {
+  "auc": 1.0,
+  "acc": 1.0,
+  "pos": 0.9359999999999999,
+  "neg": 0.092
+ },
+ "sales_pitch/concrete_metric": {
+  "auc": 1.0,
+  "acc": 0.9,
+  "pos": 0.9879999999999999,
+  "neg": 0.158
+ },
+ "sales_pitch/overpromise": {
+  "auc": 1.0,
+  "acc": 0.9,
+  "pos": 0.9719999999999999,
+  "neg": 0.306
+ },
+ "sales_pitch/urgency_pressure": {
+  "auc": 1.0,
+  "acc": 0.9,
+  "pos": 0.966,
+  "neg": 0.18
+ },
+ "sales_pitch/vague_benefit": {
+  "auc": 1.0,
+  "acc": 1.0,
+  "pos": 0.8720000000000001,
+  "neg": 0.164
+ }
+}

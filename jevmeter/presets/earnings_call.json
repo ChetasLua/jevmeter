@@ -1,20 +1,119 @@
 {
   "name": "earnings_call",
   "hook": "I put a live spin meter on this earnings call.",
-  "hook_sub": "every sentence · 5 questions each",
+  "hook_sub": "every sentence \u00b7 5 questions each",
   "index_label": "SPIN INDEX",
   "context_label": "analyst_question",
   "end_title": "Final score: the whole call",
   "questions": [
-    {"key": "specific_number", "label": "Specific number", "index": false,
-     "instructions": "Does this sentence state a specific figure (revenue, margin, growth rate, guidance number)?"},
-    {"key": "vague_guidance", "label": "Vague guidance", "index": true,
-     "instructions": "Does this sentence talk about the future in vague terms without committing to anything measurable?"},
-    {"key": "blame_external", "label": "Blames outside factors", "index": true,
-     "instructions": "Does this sentence attribute weak results to outside factors (macro, weather, FX, supply chain) rather than the company?"},
-    {"key": "hype_language", "label": "Hype language", "index": true,
-     "instructions": "Does this sentence rely on promotional or hype language (incredible, transformational, unprecedented) rather than facts?"},
-    {"key": "dodged_question", "label": "Dodged question", "index": true,
-     "instructions": "Given the analyst's question, does this sentence avoid answering what was actually asked?"}
+    {
+      "key": "specific_number",
+      "label": "Specific number",
+      "index": false,
+      "instructions": "Does `sentence` state a specific business figure?",
+      "criteria": {
+        "true": {
+          "means": "It gives a concrete number: revenue, margin, growth rate, guidance range, units, headcount, date.",
+          "examples": [
+            "Revenue grew 14 percent to 2.3 billion.",
+            "We expect gross margin of 41 to 42 percent."
+          ]
+        },
+        "false": {
+          "means": "It describes results without a figure, or only mentions that numbers exist.",
+          "examples": [
+            "We had a very strong quarter.",
+            "We'll share numbers at investor day."
+          ]
+        }
+      }
+    },
+    {
+      "key": "vague_guidance",
+      "label": "Vague guidance",
+      "index": true,
+      "instructions": "Does `sentence` talk about the future without committing to anything measurable?",
+      "criteria": {
+        "true": {
+          "means": "Forward-looking and unmeasurable: momentum, trajectory, opportunity, over time.",
+          "examples": [
+            "We feel good about the trajectory going forward.",
+            "Over time we see opportunity to expand margins."
+          ]
+        },
+        "false": {
+          "means": "It gives a measurable forecast or commitment, or it is about the past.",
+          "examples": [
+            "We guide to revenue of 9.1 to 9.3 billion.",
+            "We will close the Dayton plant by March."
+          ]
+        }
+      }
+    },
+    {
+      "key": "blame_external",
+      "label": "Blames outside factors",
+      "index": true,
+      "instructions": "Does `sentence` attribute weak results to outside factors rather than to the company's own choices?",
+      "criteria": {
+        "true": {
+          "means": "Weakness is blamed on FX, weather, macro, tariffs, supply chain, regulation or competitors.",
+          "examples": [
+            "The miss was driven by currency headwinds.",
+            "Warm weather hurt winter demand."
+          ]
+        },
+        "false": {
+          "means": "It owns a company decision, sizes an external effect neutrally, or describes a positive effect.",
+          "examples": [
+            "We priced the new tier too high.",
+            "Currency added two points to growth."
+          ]
+        }
+      }
+    },
+    {
+      "key": "hype_language",
+      "label": "Hype language",
+      "index": true,
+      "instructions": "Does `sentence` rely on promotional hype wording instead of facts?",
+      "criteria": {
+        "true": {
+          "means": "Superlatives and hype: transformational, game-changing, unprecedented, incredible.",
+          "examples": [
+            "This is a transformational moment.",
+            "Demand is simply unprecedented."
+          ]
+        },
+        "false": {
+          "means": "It is factual or measured, even if positive.",
+          "examples": [
+            "The launch added 40,000 customers in six weeks.",
+            "We're pleased, and churn fell to 2.1 percent."
+          ]
+        }
+      }
+    },
+    {
+      "key": "dodged_question",
+      "label": "Dodged question",
+      "index": true,
+      "instructions": "Given `analyst_question` and `answer_so_far`, is `sentence` part of not answering what was asked?",
+      "criteria": {
+        "true": {
+          "means": "It avoids the analyst's actual question: pivots, no-comment plus talking points, unrelated highlights.",
+          "examples": [
+            "Layoffs question -> 'What I'd emphasize is our culture.'"
+          ]
+        },
+        "false": {
+          "means": "It answers the question, gives part of the answer, or is a brief courtesy right before the answer.",
+          "examples": [
+            "'Yes, headcount falls about 4 percent.'",
+            "'Good question, the short answer is yes.'"
+          ]
+        }
+      }
+    }
   ]
 }

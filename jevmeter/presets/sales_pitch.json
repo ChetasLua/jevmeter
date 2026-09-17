@@ -1,20 +1,119 @@
 {
   "name": "sales_pitch",
   "hook": "I gave this pitch a live hype meter.",
-  "hook_sub": "every sentence · 5 questions each",
+  "hook_sub": "every sentence \u00b7 5 questions each",
   "index_label": "HYPE INDEX",
   "context_label": "question",
   "end_title": "Final score: the whole pitch",
   "questions": [
-    {"key": "concrete_metric", "label": "Concrete metric", "index": false,
-     "instructions": "Does this sentence give a concrete, measurable number (users, revenue, speed, price)?"},
-    {"key": "buzzwords", "label": "Buzzwords", "index": true,
-     "instructions": "Is this sentence mostly buzzwords (AI-powered, revolutionary, disruptive, next-gen) with little concrete meaning?"},
-    {"key": "overpromise", "label": "Overpromise", "index": true,
-     "instructions": "Does this sentence promise results that sound too good to be true or are not backed up?"},
-    {"key": "urgency_pressure", "label": "Urgency pressure", "index": true,
-     "instructions": "Does this sentence push artificial urgency or scarcity (act now, limited time, only a few left)?"},
-    {"key": "vague_benefit", "label": "Vague benefit", "index": true,
-     "instructions": "Does this sentence describe a benefit so vaguely that it cannot be checked?"}
+    {
+      "key": "concrete_metric",
+      "label": "Concrete metric",
+      "index": false,
+      "instructions": "Does `sentence` give a concrete, measurable number about the product or business?",
+      "criteria": {
+        "true": {
+          "means": "Users, revenue, retention, time saved, price, speed with an actual figure.",
+          "examples": [
+            "12,000 paying teams and 128 percent retention.",
+            "From nine days to under four hours."
+          ]
+        },
+        "false": {
+          "means": "Claims of traction or quality without a figure.",
+          "examples": [
+            "We have massive traction.",
+            "We're the number one choice."
+          ]
+        }
+      }
+    },
+    {
+      "key": "buzzwords",
+      "label": "Buzzwords",
+      "index": true,
+      "instructions": "Is `sentence` mostly buzzwords with little concrete meaning?",
+      "criteria": {
+        "true": {
+          "means": "Stacked jargon like AI-native, next-gen, disruptive, synergy, paradigm with no concrete function.",
+          "examples": [
+            "An AI-native platform synergizing next-gen workflows."
+          ]
+        },
+        "false": {
+          "means": "It says concretely what the product does, even if it mentions AI or cloud.",
+          "examples": [
+            "It flags duplicate vendor charges in your bank statements.",
+            "A small model labels tickets by urgency."
+          ]
+        }
+      }
+    },
+    {
+      "key": "overpromise",
+      "label": "Overpromise",
+      "index": true,
+      "instructions": "Does `sentence` promise results that are too good to be true or unbacked?",
+      "criteria": {
+        "true": {
+          "means": "Guaranteed dramatic outcomes, absolute promises, total elimination of problems.",
+          "examples": [
+            "We guarantee revenue triples in 90 days.",
+            "You'll never think about taxes again."
+          ]
+        },
+        "false": {
+          "means": "Typical ranges, honest limits, certifications or modest claims.",
+          "examples": [
+            "Customers typically see a 15 to 25 percent drop.",
+            "It won't fix a bad product."
+          ]
+        }
+      }
+    },
+    {
+      "key": "urgency_pressure",
+      "label": "Urgency pressure",
+      "index": true,
+      "instructions": "Does `sentence` pressure the listener with artificial urgency or scarcity?",
+      "criteria": {
+        "true": {
+          "means": "Deadlines, limited spots, fear of missing out, 'sign today'.",
+          "examples": [
+            "Founder pricing disappears at midnight.",
+            "Only three slots left, sign today."
+          ]
+        },
+        "false": {
+          "means": "Neutral timelines, invitations to take time, or plain availability.",
+          "examples": [
+            "Take a couple of weeks with the trial.",
+            "Onboarding takes ten business days."
+          ]
+        }
+      }
+    },
+    {
+      "key": "vague_benefit",
+      "label": "Vague benefit",
+      "index": true,
+      "instructions": "Does `sentence` describe a benefit so vaguely that it cannot be checked?",
+      "criteria": {
+        "true": {
+          "means": "Benefits like better lives, unlocked potential, new levels of clarity.",
+          "examples": [
+            "It makes your team's life so much better.",
+            "You'll unlock your true potential."
+          ]
+        },
+        "false": {
+          "means": "A specific, checkable benefit: time saved, a named feature, a removed manual task.",
+          "examples": [
+            "It saves six hours of data entry a week.",
+            "Reps stop copying call notes by hand."
+          ]
+        }
+      }
+    }
   ]
 }

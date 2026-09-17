@@ -24,37 +24,61 @@ def _session(key):
     return _tl.s
 
 
+def make_state(preset, speaker, context, earlier, so_far, sentence, history=25):
+    """One state per sentence. Field names are referenced with backticks by the preset questions."""
+    return {
+        "speaker": speaker,
+        preset.get("context_label", "context"): context or "(none)",
+        "earlier_statements": list(earlier)[-history:],
+        "answer_so_far": so_far[-600:] if so_far else "",
+        "sentence": sentence,
+    }
+
+
+def make_questions(preset):
+    out = {}
+    for q in preset["questions"]:
+        body = {"type": "noul", "instructions": q["instructions"]}
+        if q.get("criteria"):
+            body["criteria"] = q["criteria"]
+        out[q["key"]] = body
+    return out
+
+
 def build_states(sents, speakers, preset, history=25):
     """State per scored sentence: who speaks, the latest context turn (e.g. the moderator's question),
     that speaker's earlier sentences, and the answer so far."""
-    ctx_label = preset.get("context_label", "context")
     hist = {sp: [] for sp in speakers}
-    last_ctx, cur_turn, so_far = "(start)", None, []
+    last_ctx, cur_turn, so_far = "", None, []
+    ctx_turn = None
     states = []
     for s in sents:
         sp = s["speaker"]
         if sp not in speakers:
-            if s["turn"] != cur_turn:
-                last_ctx = ""
+            if s["turn"] != ctx_turn:
+                last_ctx, ctx_turn = "", s["turn"]
             last_ctx = (last_ctx + " " + s["text"]).strip()[-700:]
-            cur_turn = s["turn"]
             continue
         if s["turn"] != cur_turn:
             so_far, cur_turn = [], s["turn"]
-        states.append((s, {
-            "speaker": preset.get("speaker_names", {}).get(sp, sp.title()),
-            ctx_label: last_ctx,
-            "earlier_statements": hist[sp][-history:],
-            "current_answer_so_far": " ".join(so_far)[-600:],
-            "sentence": s["text"],
-        }))
+        name = preset.get("speaker_names", {}).get(sp, sp.title())
+        states.append((s, make_state(preset, name, last_ctx, hist[sp], " ".join(so_far), s["text"], history)))
         so_far.append(s["text"])
         hist[sp].append(s["text"])
     return states
 
 
 def score(sents, speakers, preset, work, key, model="jev-latest", threads=6):
+    import hashlib
     path = os.path.join(work, "scores.jsonl")
+    fp = hashlib.sha256(json.dumps([model, preset.get("context_label"), make_questions(preset)], sort_keys=True).encode()).hexdigest()[:12]
+    meta = os.path.join(work, "scores.meta.json")
+    old = json.load(open(meta)).get("fingerprint") if os.path.exists(meta) else None
+    if os.path.exists(path) and old != fp:
+        # different questions or model: keep the old scores aside instead of mixing them in
+        os.replace(path, os.path.join(work, f"scores.{old or 'old'}.jsonl"))
+        log("preset or model changed since the last run; scoring again")
+    json.dump({"fingerprint": fp, "model": model, "preset": preset.get("name")}, open(meta, "w"))
     done = {}
     if os.path.exists(path):
         for line in open(path):
@@ -64,7 +88,7 @@ def score(sents, speakers, preset, work, key, model="jev-latest", threads=6):
                     done[r["id"]] = r
             except json.JSONDecodeError:
                 pass
-    questions = {q["key"]: {"type": "noul", "instructions": q["instructions"]} for q in preset["questions"]}
+    questions = make_questions(preset)
     todo = [(s, st) for s, st in build_states(sents, speakers, preset) if s["id"] not in done]
     if not todo:
         return done

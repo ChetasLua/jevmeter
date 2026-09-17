@@ -1,0 +1,1824 @@
+[
+  {
+    "preset": "debate",
+    "question": "factual_claim",
+    "label": 1,
+    "context": "Governor Halvorsen, housing costs have doubled in some counties. What have you actually done about it?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "In my first term we permitted 41,000 new housing units, the most of any four-year stretch in the state's history."
+  },
+  {
+    "preset": "debate",
+    "question": "factual_claim",
+    "label": 1,
+    "context": "Senator Okafor, your opponent says you opposed the Clean Grid Act. Is that true?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "I voted yes on Senate Bill 212, the Clean Grid Act, on March 3rd of last year, and the roll call is public."
+  },
+  {
+    "preset": "debate",
+    "question": "factual_claim",
+    "label": 1,
+    "context": "Commissioner Pratt, how would you grade the county's healthcare record over the last four years?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Under my opponent's watch, the county's uninsured rate rose from 8 percent to 11.5 percent."
+  },
+  {
+    "preset": "debate",
+    "question": "factual_claim",
+    "label": 1,
+    "context": "Ms. Delacroix, how are our public schools doing on reading?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Our state now ranks 38th in fourth-grade reading scores, down from 22nd a decade ago."
+  },
+  {
+    "preset": "debate",
+    "question": "factual_claim",
+    "label": 1,
+    "context": "Mr. Brennan, why did the Brightwater wind project fall apart?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "The project was canceled in 2023 after the utility commission rejected the contract by a four-to-one vote."
+  },
+  {
+    "preset": "debate",
+    "question": "factual_claim",
+    "label": 0,
+    "context": "Governor Halvorsen, what is your record on helping working families?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "I have done more for working families than anyone on this stage, and everybody knows it."
+  },
+  {
+    "preset": "debate",
+    "question": "factual_claim",
+    "label": 0,
+    "context": "Mr. Vance, you have two minutes to respond on public safety.",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "I've only got two minutes here, so let me be quick."
+  },
+  {
+    "preset": "debate",
+    "question": "factual_claim",
+    "label": 0,
+    "context": "Ms. Tanaka, what would you do about rising property taxes?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "If elected, I will fight every day to cut property taxes by ten percent."
+  },
+  {
+    "preset": "debate",
+    "question": "factual_claim",
+    "label": 0,
+    "context": "Dr. Abernathy, what is your vision for healthcare in this state?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Let me tell you the three things I believe about healthcare."
+  },
+  {
+    "preset": "debate",
+    "question": "factual_claim",
+    "label": 0,
+    "context": "Mr. Soto, what would you change about our schools?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "I think our schools deserve better leadership than they've had."
+  },
+  {
+    "preset": "debate",
+    "question": "evasive",
+    "label": 1,
+    "context": "Mayor Castellano, will you raise the transit fare next year, yes or no?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "What I can tell you is that transit is about connecting people to opportunity, and that's a conversation we need to have as a whole community."
+  },
+  {
+    "preset": "debate",
+    "question": "evasive",
+    "label": 1,
+    "context": "Mr. Whitford, did you accept campaign donations from the Ridgeview developers?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Look, the real question voters care about is whether their rent is going up, and my opponent has no plan for that."
+  },
+  {
+    "preset": "debate",
+    "question": "evasive",
+    "label": 1,
+    "context": "Ms. Morrow, will you close Lincoln and Garfield elementary schools, as the budget report recommends?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "I've always said education is the foundation of everything we do as a community."
+  },
+  {
+    "preset": "debate",
+    "question": "evasive",
+    "label": 1,
+    "context": "Dr. Ellison, your hospital plan would cost two billion dollars. How would you pay for it?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Well, you know, when I was growing up my mother worked two jobs and never once complained about a doctor's bill."
+  },
+  {
+    "preset": "debate",
+    "question": "evasive",
+    "label": 1,
+    "context": "Senator Quill, will you support the proposed carbon fee?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "There are a lot of ideas out there, and I'm open to all of them as we move forward together."
+  },
+  {
+    "preset": "debate",
+    "question": "evasive",
+    "label": 0,
+    "context": "Mayor Castellano, will you raise the transit fare next year, yes or no?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Thank you for the question, and the answer is no, I will freeze fares for all four years of my term."
+  },
+  {
+    "preset": "debate",
+    "question": "evasive",
+    "label": 0,
+    "context": "Dr. Ellison, your hospital plan would cost two billion dollars. How would you pay for it?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Unlike my opponent, I'll pay for it with the 1.5 percent tax on luxury home sales that I proposed in May."
+  },
+  {
+    "preset": "debate",
+    "question": "evasive",
+    "label": 0,
+    "context": "Ms. Morrow, what would you do about the teacher shortage?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "When I was a principal we lost six teachers in one year, so my plan starts with a six-thousand-dollar retention bonus for anyone who stays three years."
+  },
+  {
+    "preset": "debate",
+    "question": "evasive",
+    "label": 0,
+    "context": "Mr. Whitford, did you accept campaign donations from the Ridgeview developers?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Yes, I accepted four thousand dollars from them in 2022, and I returned it last month."
+  },
+  {
+    "preset": "debate",
+    "question": "evasive",
+    "label": 0,
+    "context": "Senator Quill, will you support the proposed carbon fee?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "I oppose the carbon fee because it would raise heating costs for rural families who have no alternative."
+  },
+  {
+    "preset": "debate",
+    "question": "contradicts_earlier",
+    "label": 1,
+    "context": "Let's turn to road and bridge funding.",
+    "earlier_statements": [
+      "I have never supported raising the gas tax, not once in my career."
+    ],
+    "answer_so_far": "",
+    "sentence": "That's why I was proud to sponsor the gas tax increase in 2019 to fix our bridges."
+  },
+  {
+    "preset": "debate",
+    "question": "contradicts_earlier",
+    "label": 1,
+    "context": "The team owners want a new downtown stadium. Where do you stand?",
+    "earlier_statements": [
+      "We cannot afford to build a new stadium with public money.",
+      "Taxpayers have bigger priorities."
+    ],
+    "answer_so_far": "",
+    "sentence": "I want to be clear that I support using city bonds to finance the new stadium."
+  },
+  {
+    "preset": "debate",
+    "question": "contradicts_earlier",
+    "label": 1,
+    "context": "How would you close the budget gap?",
+    "earlier_statements": [
+      "My plan does not cut a single dollar from Medicaid."
+    ],
+    "answer_so_far": "",
+    "sentence": "Yes, we will reduce Medicaid spending by about four hundred million dollars to balance the budget."
+  },
+  {
+    "preset": "debate",
+    "question": "contradicts_earlier",
+    "label": 1,
+    "context": "Let's talk about school choice.",
+    "earlier_statements": [
+      "I opposed the charter school expansion from day one."
+    ],
+    "answer_so_far": "",
+    "sentence": "When the charter expansion came up for a vote, I voted for it because parents deserve choices."
+  },
+  {
+    "preset": "debate",
+    "question": "contradicts_earlier",
+    "label": 1,
+    "context": "Rents rose 14 percent last year. What will you do?",
+    "earlier_statements": [
+      "Rent control has been a disaster everywhere it's been tried.",
+      "I will not bring rent control to this city."
+    ],
+    "answer_so_far": "",
+    "sentence": "My first act as mayor will be to cap rent increases at three percent a year for every apartment in the city."
+  },
+  {
+    "preset": "debate",
+    "question": "contradicts_earlier",
+    "label": 0,
+    "context": "Let's turn to road and bridge funding.",
+    "earlier_statements": [
+      "I have never supported raising the gas tax, not once in my career."
+    ],
+    "answer_so_far": "",
+    "sentence": "My opponent voted to raise the gas tax three times, and you paid for it every time you filled up."
+  },
+  {
+    "preset": "debate",
+    "question": "contradicts_earlier",
+    "label": 0,
+    "context": "The team owners want a new downtown stadium. Where do you stand?",
+    "earlier_statements": [
+      "We cannot afford to build a new stadium with public money."
+    ],
+    "answer_so_far": "",
+    "sentence": "If the team wants a new stadium, they can pay for every brick of it themselves."
+  },
+  {
+    "preset": "debate",
+    "question": "contradicts_earlier",
+    "label": 0,
+    "context": "What is your energy plan?",
+    "earlier_statements": [
+      "I support expanding solar power across the state."
+    ],
+    "answer_so_far": "",
+    "sentence": "But I also think we need to keep our natural gas plants running until the grid can handle the transition."
+  },
+  {
+    "preset": "debate",
+    "question": "contradicts_earlier",
+    "label": 0,
+    "context": "How would you close the budget gap?",
+    "earlier_statements": [
+      "My plan does not cut a single dollar from Medicaid."
+    ],
+    "answer_so_far": "",
+    "sentence": "What my plan does cut is the eight hundred million dollars we spend every year on outside consultants."
+  },
+  {
+    "preset": "debate",
+    "question": "contradicts_earlier",
+    "label": 0,
+    "context": "What would you do about student mental health?",
+    "earlier_statements": [
+      "Our schools need more counselors, not more paperwork."
+    ],
+    "answer_so_far": "",
+    "sentence": "That's why I will hire two hundred new school counselors in my first year."
+  },
+  {
+    "preset": "debate",
+    "question": "emotional_appeal",
+    "label": 1,
+    "context": "Mr. Garrison, what is your public safety plan?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "If he wins, your children will not be safe walking home from school, and you know it."
+  },
+  {
+    "preset": "debate",
+    "question": "emotional_appeal",
+    "label": 1,
+    "context": "Ms. Lowell, respond to your opponent's budget proposal.",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "My opponent is a joke, and a clown show like his has no business anywhere near your tax dollars."
+  },
+  {
+    "preset": "debate",
+    "question": "emotional_appeal",
+    "label": 1,
+    "context": "Closing statements. Mr. Pike, you have one minute.",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "You, the hardworking people of this great state, are the real heroes, and you deserve a fighter who loves you as much as I do."
+  },
+  {
+    "preset": "debate",
+    "question": "emotional_appeal",
+    "label": 1,
+    "context": "Senator Hale, what is your position on the new zoning reform?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "They are coming for your homes, your savings, and everything you have worked your whole life to build."
+  },
+  {
+    "preset": "debate",
+    "question": "emotional_appeal",
+    "label": 1,
+    "context": "Ms. Ibarra, what would you do about prescription drug costs?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Grandmothers in this county are choosing between insulin and groceries, and every single one of you should be absolutely furious about it."
+  },
+  {
+    "preset": "debate",
+    "question": "emotional_appeal",
+    "label": 0,
+    "context": "Mr. Garrison, what would you do about the opioid crisis?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Overdose deaths in our county rose 30 percent last year, so I will fund twelve new treatment centers, starting in the three hardest-hit towns."
+  },
+  {
+    "preset": "debate",
+    "question": "emotional_appeal",
+    "label": 0,
+    "context": "Senator Hale, what is your position on the new zoning reform?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Some families are afraid of the new zoning law, so let me explain exactly what it changes: it allows duplexes on lots over five thousand square feet."
+  },
+  {
+    "preset": "debate",
+    "question": "emotional_appeal",
+    "label": 0,
+    "context": "Ms. Lowell, what did you accomplish on the education committee?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "I'm proud that our graduation rate went from 81 to 87 percent while I chaired the education committee."
+  },
+  {
+    "preset": "debate",
+    "question": "emotional_appeal",
+    "label": 0,
+    "context": "Mr. Pike, what do you think of the proposed light rail line?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "This plan is a mistake because it spends three billion dollars on a line that projects only nine thousand daily riders."
+  },
+  {
+    "preset": "debate",
+    "question": "emotional_appeal",
+    "label": 0,
+    "context": "Ms. Ibarra, how would you help young adults get insurance?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "My plan lets anyone under 30 buy into the state insurance pool at a capped premium."
+  },
+  {
+    "preset": "debate",
+    "question": "dodged_question",
+    "label": 1,
+    "context": "Councilwoman Reyes, would you support a tax increase to fund the three new fire stations?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Our firefighters are the bravest people I know, and I've stood with them at every single rally."
+  },
+  {
+    "preset": "debate",
+    "question": "dodged_question",
+    "label": 1,
+    "context": "Mr. Lindqvist, how many people would lose their current coverage under your insurance plan?",
+    "earlier_statements": [],
+    "answer_so_far": "Healthcare is personal for me.",
+    "sentence": "My father was a nurse for thirty years, and he taught me that every patient matters."
+  },
+  {
+    "preset": "debate",
+    "question": "dodged_question",
+    "label": 1,
+    "context": "Mr. Dunmore, do you support building the Northfield pipeline, yes or no?",
+    "earlier_statements": [],
+    "answer_so_far": "Energy independence is critical for this region.",
+    "sentence": "And let's not forget my opponent took money from out-of-state activists who want to shut down every job in this valley."
+  },
+  {
+    "preset": "debate",
+    "question": "dodged_question",
+    "label": 1,
+    "context": "Ms. Achebe, what is your specific plan to lower tuition at state universities?",
+    "earlier_statements": [],
+    "answer_so_far": "Education changed my life. I was the first in my family to go to college.",
+    "sentence": "I believe every young person in this state deserves that same shot at a better life."
+  },
+  {
+    "preset": "debate",
+    "question": "dodged_question",
+    "label": 1,
+    "context": "Mayor Brandt, you promised to cut commute times. Why have they gotten longer during your term?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Let me talk about what we have accomplished, which is the lowest unemployment rate this city has seen in a decade."
+  },
+  {
+    "preset": "debate",
+    "question": "dodged_question",
+    "label": 0,
+    "context": "Councilwoman Reyes, would you support a tax increase to fund the three new fire stations?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Thanks for asking, and yes, I would support a quarter-cent sales tax dedicated to those stations."
+  },
+  {
+    "preset": "debate",
+    "question": "dodged_question",
+    "label": 0,
+    "context": "Mr. Lindqvist, how many people would lose their current coverage under your insurance plan?",
+    "earlier_statements": [],
+    "answer_so_far": "Healthcare is personal for me. My father was a nurse for thirty years.",
+    "sentence": "To answer you directly, about sixty thousand people would move from private plans to the public option, and nobody would be left without coverage."
+  },
+  {
+    "preset": "debate",
+    "question": "dodged_question",
+    "label": 0,
+    "context": "Mr. Dunmore, do you support building the Northfield pipeline, yes or no?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "No, I don't support the Northfield pipeline, and unlike my opponent I'm not afraid to say so."
+  },
+  {
+    "preset": "debate",
+    "question": "dodged_question",
+    "label": 0,
+    "context": "Ms. Achebe, what is your specific plan to lower tuition at state universities?",
+    "earlier_statements": [],
+    "answer_so_far": "Education changed my life.",
+    "sentence": "My plan freezes tuition for four years and pays for it by redirecting the ninety-million-dollar athletics facility fund."
+  },
+  {
+    "preset": "debate",
+    "question": "dodged_question",
+    "label": 0,
+    "context": "Mayor Brandt, you promised to cut commute times. Why have they gotten longer during your term?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Commutes got longer because the Route 9 bridge was closed for eighteen months, and I should have pushed harder for a faster detour plan."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "specific_number",
+    "label": 1,
+    "context": "Analyst: Can you walk us through the top line for the quarter?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Revenue came in at 412 million dollars, up 18 percent year over year."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "specific_number",
+    "label": 1,
+    "context": "Analyst: What drove the margin performance this quarter?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Gross margin expanded 140 basis points to 62.3 percent, mostly on lower cloud hosting costs."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "specific_number",
+    "label": 1,
+    "context": "Analyst: Are you changing your outlook for the full year?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "We're raising full-year guidance to between a dollar sixty-five and a dollar seventy in earnings per share."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "specific_number",
+    "label": 1,
+    "context": "Analyst: How did the smart thermostat line do?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "We shipped just under 2.1 million thermostat units in the quarter."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "specific_number",
+    "label": 1,
+    "context": "Analyst: How healthy is expansion within your enterprise customer base?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Net revenue retention for enterprise customers was 124 percent."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "specific_number",
+    "label": 0,
+    "context": "Analyst: Can you break down the drivers of the quarter?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "I'll hand it over to our CFO in a second, but first, two quick points."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "specific_number",
+    "label": 0,
+    "context": "Analyst: How did margins trend across the business?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Our margins improved nicely, and we saw strength across every region."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "specific_number",
+    "label": 0,
+    "context": "Analyst: Where are you on the Ashford plant?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "As we said on the third-quarter call, the Ashford plant will come online later this year."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "specific_number",
+    "label": 0,
+    "context": "Analyst: Can you give us more color on segment profitability?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "We'll share more detailed segment numbers at our investor day in the spring."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "specific_number",
+    "label": 0,
+    "context": "Analyst: Congrats on the quarter. Can you talk about hiring plans?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Thanks, Priya, that's a great question and one we get a lot."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "vague_guidance",
+    "label": 1,
+    "context": "Analyst: What should we expect for operating margins next year?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "We feel good about the trajectory and expect continued progress as the year unfolds."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "vague_guidance",
+    "label": 1,
+    "context": "Analyst: How are you thinking about the second half?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "We believe we're well positioned to capture the opportunities ahead of us in the back half."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "vague_guidance",
+    "label": 1,
+    "context": "Analyst: How big can the subscription business get?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Over time, we think subscriptions will become a bigger and bigger part of the story."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "vague_guidance",
+    "label": 1,
+    "context": "Analyst: Any update on demand trends heading into the holiday season?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "We remain cautiously optimistic about the second half, and we'll continue to be disciplined."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "vague_guidance",
+    "label": 1,
+    "context": "Analyst: What's the outlook for international expansion?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Going forward, we see a lot of runway in our international markets."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "vague_guidance",
+    "label": 0,
+    "context": "Analyst: What should we expect for operating margins next year?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "For next year, we expect operating margin between 21 and 23 percent."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "vague_guidance",
+    "label": 0,
+    "context": "Analyst: What's the timeline for the new distribution center?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "We will open the Tulsa distribution center in the second quarter of next year, which gets delivery in that region down to two days."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "vague_guidance",
+    "label": 0,
+    "context": "Analyst: How did the retail segment perform?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Last quarter was a tough one for our retail segment."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "vague_guidance",
+    "label": 0,
+    "context": "Analyst: How should we model capital spending?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "We expect capital expenditures of roughly 300 million dollars next year, weighted toward the first half."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "vague_guidance",
+    "label": 0,
+    "context": "Analyst: Where does the balance sheet stand?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Our cash balance at quarter end was 1.2 billion dollars."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "blame_external",
+    "label": 1,
+    "context": "Analyst: What caused the revenue shortfall versus your guidance?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "The miss was largely driven by unfavorable foreign exchange, which knocked about four points off reported growth."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "blame_external",
+    "label": 1,
+    "context": "Analyst: Why was apparel so weak in the quarter?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Unseasonably warm weather in December really hurt demand for our winter apparel."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "blame_external",
+    "label": 1,
+    "context": "Analyst: Why did the sales cycle lengthen?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Frankly, the new state data privacy regulations slowed our deals down more than anyone expected."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "blame_external",
+    "label": 1,
+    "context": "Analyst: What's behind the decline in same-store sales?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "The softness reflects a tough macro environment, with consumers pulling back on discretionary spending."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "blame_external",
+    "label": 1,
+    "context": "Analyst: Why did hardware revenue come in light?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Port congestion and ongoing supply chain disruptions delayed shipments and pushed roughly 20 million dollars of revenue into next quarter."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "blame_external",
+    "label": 0,
+    "context": "Analyst: Was the miss a macro story?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Macro was actually fine this quarter; the miss was on us, because we priced the new tier too high."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "blame_external",
+    "label": 0,
+    "context": "Analyst: What drove the upside in international?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Favorable exchange rates added about two points to our growth this quarter."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "blame_external",
+    "label": 0,
+    "context": "Analyst: Why did Latin America revenue drop?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "We chose to exit the Brazilian market, and that decision cost us about eight million dollars in revenue."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "blame_external",
+    "label": 0,
+    "context": "Analyst: Any lingering supply chain issues?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Our supply chain is now fully normalized, and lead times are back to where they were before the disruptions."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "blame_external",
+    "label": 0,
+    "context": "Analyst: What did you ship for small business customers?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "We launched three new invoicing features for small business customers in the quarter."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "hype_language",
+    "label": 1,
+    "context": "Analyst: How do you see the acquisition fitting into the strategy?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "This is truly a transformational moment for the company and for the entire industry."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "hype_language",
+    "label": 1,
+    "context": "Analyst: What's the early feedback on the new assistant?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Our new AI assistant is an absolute game-changer, unlike anything the market has ever seen."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "hype_language",
+    "label": 1,
+    "context": "Analyst: Can you characterize demand for the new line?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "The demand we're seeing is unprecedented, just incredible, across the board."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "hype_language",
+    "label": 1,
+    "context": "Analyst: Where does the Nova platform fit in your lineup?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Honestly, Nova is the most revolutionary product we have ever built."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "hype_language",
+    "label": 1,
+    "context": "Analyst: How big is the opportunity in energy storage?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "We are on the verge of something massive here, a true once-in-a-generation opportunity."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "hype_language",
+    "label": 0,
+    "context": "Analyst: Some reviewers are calling the product transformational. Do you agree?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "I'd rather not use words like that, and let the nine percent reduction in churn speak for itself."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "hype_language",
+    "label": 0,
+    "context": "Analyst: How did bookings come in?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Bookings grew 31 percent, and we added 420 new enterprise customers."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "hype_language",
+    "label": 0,
+    "context": "Analyst: Is the new chip as game-changing as the press suggests?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "It's roughly 15 percent more power-efficient than the prior generation, and that's what customers are buying it for."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "hype_language",
+    "label": 0,
+    "context": "Analyst: How do you feel about execution this quarter?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "We're pleased with the results, and we think the team executed well."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "hype_language",
+    "label": 0,
+    "context": "Analyst: What happened with operating expenses?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Operating expenses were 88 million dollars, flat sequentially."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "dodged_question",
+    "label": 1,
+    "context": "Analyst: Can you quantify how much of the churn came from the price increase?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "What I'd say is that we're really focused on delivering value for our customers every single day."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "dodged_question",
+    "label": 1,
+    "context": "Analyst: Is the Denver facility still on track to open in the third quarter?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "We're really excited about our long-term manufacturing footprint and the talented team we're building."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "dodged_question",
+    "label": 1,
+    "context": "Analyst: Why did you lower the gross margin outlook?",
+    "earlier_statements": [],
+    "answer_so_far": "Great question.",
+    "sentence": "Let me instead highlight the record number of new customers we added this quarter."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "dodged_question",
+    "label": 1,
+    "context": "Analyst: Are you seeing competitors cut prices in the mid-market segment?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "We don't really comment on competitors; we just stay focused on our own roadmap."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "dodged_question",
+    "label": 1,
+    "context": "Analyst: How much did the battery recall cost you in the quarter?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Safety has always been our number one priority, and we acted quickly and responsibly."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "dodged_question",
+    "label": 0,
+    "context": "Analyst: Can you quantify how much of the churn came from the price increase?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Thanks, Marcus, great question, and the short answer is that about a third of the churn, roughly 1.2 points, came from the price change."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "dodged_question",
+    "label": 0,
+    "context": "Analyst: Is the Denver facility still on track to open in the third quarter?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Yes, Denver is still on track for the third quarter, and hiring there is about 70 percent complete."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "dodged_question",
+    "label": 0,
+    "context": "Analyst: Why did you lower the gross margin outlook?",
+    "earlier_statements": [],
+    "answer_so_far": "Great question, and let me give a little context.",
+    "sentence": "We lowered it because freight costs came in about 12 million dollars above plan, and we don't expect that to reverse this year."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "dodged_question",
+    "label": 0,
+    "context": "Analyst: How much did the battery recall cost you in the quarter?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "We don't have a final number yet, but our current estimate is between 15 and 20 million dollars, and we'll update you next quarter."
+  },
+  {
+    "preset": "earnings_call",
+    "question": "dodged_question",
+    "label": 0,
+    "context": "Analyst: Are you seeing competitors cut prices in the mid-market segment?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Yes, two competitors cut list prices by about ten percent in the mid-market, and we chose not to match."
+  },
+  {
+    "preset": "podcast",
+    "question": "factual_claim",
+    "label": 1,
+    "context": "Host: Why does everyone keep talking about water rights around the lakes?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "The Great Lakes hold roughly a fifth of all the fresh surface water on the planet."
+  },
+  {
+    "preset": "podcast",
+    "question": "factual_claim",
+    "label": 1,
+    "context": "Host: So how bad has it gotten with housing in your town?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Our town's median home price went from 210 thousand to 385 thousand dollars between 2018 and 2024."
+  },
+  {
+    "preset": "podcast",
+    "question": "factual_claim",
+    "label": 1,
+    "context": "Host: Do schools actually teach money skills anymore?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Our state passed a law in 2021 requiring every public high school to offer a personal finance class."
+  },
+  {
+    "preset": "podcast",
+    "question": "factual_claim",
+    "label": 1,
+    "context": "Guest: People keep saying Bitcoin can just be printed like dollars.",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "No, the protocol caps the total supply at 21 million coins."
+  },
+  {
+    "preset": "podcast",
+    "question": "factual_claim",
+    "label": 1,
+    "context": "Host: What happened with the bus situation in your district?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Last year the district cut its school bus routes from 64 down to 49."
+  },
+  {
+    "preset": "podcast",
+    "question": "factual_claim",
+    "label": 0,
+    "context": "Host: What do you make of the return-to-office push?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Honestly, I think remote work is the best thing that ever happened to productivity."
+  },
+  {
+    "preset": "podcast",
+    "question": "factual_claim",
+    "label": 0,
+    "context": "Host: How did you end up leaving your old job?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Give me like five minutes to explain this, because it's a long story."
+  },
+  {
+    "preset": "podcast",
+    "question": "factual_claim",
+    "label": 0,
+    "context": "Host: Are heat pumps actually catching on?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Everybody's talking about heat pumps these days."
+  },
+  {
+    "preset": "podcast",
+    "question": "factual_claim",
+    "label": 0,
+    "context": "Host: Why do you care so much about rent policy?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Imagine if your rent went up 50 percent tomorrow, what would you even do?"
+  },
+  {
+    "preset": "podcast",
+    "question": "factual_claim",
+    "label": 0,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Welcome back to the show, it's great to have you here."
+  },
+  {
+    "preset": "podcast",
+    "question": "unsupported",
+    "label": 1,
+    "context": "Host: Why do you think chronic illness is rising?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Seed oils are the real reason everyone is getting sick these days."
+  },
+  {
+    "preset": "podcast",
+    "question": "unsupported",
+    "label": 1,
+    "context": "Host: What's your take on the housing shortage?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "The whole housing shortage is fake; builders are just sitting on empty units to keep prices high."
+  },
+  {
+    "preset": "podcast",
+    "question": "unsupported",
+    "label": 1,
+    "context": "Host: Are you thinking about going electric for your next car?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Electric cars actually pollute more than gas cars over their lifetime, that's just a fact."
+  },
+  {
+    "preset": "podcast",
+    "question": "unsupported",
+    "label": 1,
+    "context": "Host: Where do you see that token going this year?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "That coin is going to hit a dollar by December, no question about it."
+  },
+  {
+    "preset": "podcast",
+    "question": "unsupported",
+    "label": 1,
+    "context": "Host: Should people bother with standing desks?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Standing desks don't do anything for your health at all."
+  },
+  {
+    "preset": "podcast",
+    "question": "unsupported",
+    "label": 0,
+    "context": "Host: Morning workouts or evening workouts?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "I think I prefer lifting in the morning, but that's just me."
+  },
+  {
+    "preset": "podcast",
+    "question": "unsupported",
+    "label": 0,
+    "context": "Host: Is it true there are lots of empty apartments in the city?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "According to the county's own audit from last spring, about 12 percent of rental units in the city were vacant."
+  },
+  {
+    "preset": "podcast",
+    "question": "unsupported",
+    "label": 0,
+    "context": "Host: Do heat pumps really save money?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "In mild climates they usually do, because they move heat instead of generating it, so they get around three units of heat out of every unit of electricity."
+  },
+  {
+    "preset": "podcast",
+    "question": "unsupported",
+    "label": 0,
+    "context": "Host: What productivity tools do you use as a freelancer?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "In my opinion, most productivity apps are overkill for someone like me."
+  },
+  {
+    "preset": "podcast",
+    "question": "unsupported",
+    "label": 0,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "So what got you into teaching in the first place?"
+  },
+  {
+    "preset": "podcast",
+    "question": "overgeneralization",
+    "label": 1,
+    "context": "Host: What's been your experience renting in the city?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Every single landlord out there is just trying to squeeze their tenants dry."
+  },
+  {
+    "preset": "podcast",
+    "question": "overgeneralization",
+    "label": 1,
+    "context": "Host: Is the car industry in trouble with younger buyers?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Nobody under 30 actually wants to own a car anymore."
+  },
+  {
+    "preset": "podcast",
+    "question": "overgeneralization",
+    "label": 1,
+    "context": "Host: Why do you think the last token crash happened?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Crypto people always fall for the next shiny thing."
+  },
+  {
+    "preset": "podcast",
+    "question": "overgeneralization",
+    "label": 1,
+    "context": "Host: What do you think of the teachers' strike?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "All teachers' unions care about is protecting bad teachers."
+  },
+  {
+    "preset": "podcast",
+    "question": "overgeneralization",
+    "label": 1,
+    "context": "Host: How was your experience with the health system?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Doctors never listen to what patients actually tell them."
+  },
+  {
+    "preset": "podcast",
+    "question": "overgeneralization",
+    "label": 0,
+    "context": "Host: How did your night class go this year?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Every student in my Tuesday night class passed the final exam this year."
+  },
+  {
+    "preset": "podcast",
+    "question": "overgeneralization",
+    "label": 0,
+    "context": "Host: What mistakes do you see climate startups make?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "A lot of the climate tech startups I've advised underestimate how long permitting takes."
+  },
+  {
+    "preset": "podcast",
+    "question": "overgeneralization",
+    "label": 0,
+    "context": "Host: Any sleep tips?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "I never drink coffee after 2 p.m., because it wrecks my sleep."
+  },
+  {
+    "preset": "podcast",
+    "question": "overgeneralization",
+    "label": 0,
+    "context": "Host: What's your number one tip for older lifters?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Always warm up before you deadlift, especially if you're over forty."
+  },
+  {
+    "preset": "podcast",
+    "question": "overgeneralization",
+    "label": 0,
+    "context": "Host: Any local news before we wrap?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "The new library branch on Elm Street opens this Saturday."
+  },
+  {
+    "preset": "podcast",
+    "question": "emotional_appeal",
+    "label": 1,
+    "context": "Host: What do you think about the hospital system's bonuses?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "It makes my blood boil that these executives get bonuses while nurses are sleeping in their cars."
+  },
+  {
+    "preset": "podcast",
+    "question": "emotional_appeal",
+    "label": 1,
+    "context": "Host: How worried should people be about ocean warming?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "If you're not terrified about what's happening to our oceans, you are not paying attention."
+  },
+  {
+    "preset": "podcast",
+    "question": "emotional_appeal",
+    "label": 1,
+    "context": "Host: What do you think of the crypto influencers pushing new coins?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "These so-called experts are clowns, total clowns, and anyone who listens to them deserves to lose their money."
+  },
+  {
+    "preset": "podcast",
+    "question": "emotional_appeal",
+    "label": 1,
+    "context": "Host: Why does school air conditioning matter so much to you?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Picture your own kid sitting in a classroom with no air conditioning when it's a hundred degrees, and tell me that doesn't make you sick."
+  },
+  {
+    "preset": "podcast",
+    "question": "emotional_appeal",
+    "label": 1,
+    "context": "Host: Why are grocery prices still so high?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "They're laughing at you, they're laughing all the way to the bank while you can't afford groceries."
+  },
+  {
+    "preset": "podcast",
+    "question": "emotional_appeal",
+    "label": 0,
+    "context": "Host: How did you feel about the new zoning rules?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "I was frustrated at first, but when I read the actual text, it mostly just allows backyard cottages."
+  },
+  {
+    "preset": "podcast",
+    "question": "emotional_appeal",
+    "label": 0,
+    "context": "Host: Is the heat really getting worse in the city?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Heat-related emergency room visits in the city rose from 310 to 540 between those two summers."
+  },
+  {
+    "preset": "podcast",
+    "question": "emotional_appeal",
+    "label": 0,
+    "context": "Host: Are you good with money?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "I'm terrible at budgeting, I once paid forty dollars for a smoothie subscription I completely forgot about."
+  },
+  {
+    "preset": "podcast",
+    "question": "emotional_appeal",
+    "label": 0,
+    "context": "Host: What's your take on the tuition hike?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "I think the tuition hike is a bad idea, because enrollment already dropped six percent after the last one."
+  },
+  {
+    "preset": "podcast",
+    "question": "emotional_appeal",
+    "label": 0,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Our guest today runs a small solar installation company in Oregon."
+  },
+  {
+    "preset": "podcast",
+    "question": "self_promotion",
+    "label": 1,
+    "context": "Host: Where can people learn your whole system?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "It's all in my course, and listeners get 20 percent off with the code GRIND."
+  },
+  {
+    "preset": "podcast",
+    "question": "self_promotion",
+    "label": 1,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "This episode is brought to you by Northpeak Meals, and honestly, I eat them every single day."
+  },
+  {
+    "preset": "podcast",
+    "question": "self_promotion",
+    "label": 1,
+    "context": "Host: How can people keep up with your market analysis?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Make sure you subscribe to my newsletter, The Ledger Line, because I break this down every Friday."
+  },
+  {
+    "preset": "podcast",
+    "question": "self_promotion",
+    "label": 1,
+    "context": "Host: What are you working on next?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "My new book, Stronger at Sixty, comes out next month, and I'd love for you to preorder it."
+  },
+  {
+    "preset": "podcast",
+    "question": "self_promotion",
+    "label": 1,
+    "context": "Host: So how do you actually stick to a budget?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "That's exactly why I built my budgeting app, Penny Pilot, which you can download free today."
+  },
+  {
+    "preset": "podcast",
+    "question": "self_promotion",
+    "label": 0,
+    "context": "Host: Any good reads on sleep?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "I read a great book on sleep last year, but I honestly can't remember the author's name."
+  },
+  {
+    "preset": "podcast",
+    "question": "self_promotion",
+    "label": 0,
+    "context": "Host: What did you learn from your years as a trainer?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "When I was a trainer, I noticed most clients quit right around week six."
+  },
+  {
+    "preset": "podcast",
+    "question": "self_promotion",
+    "label": 0,
+    "context": "Host: Have you tried meal kits?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "I tried one of those meal kit services once and canceled after two weeks."
+  },
+  {
+    "preset": "podcast",
+    "question": "self_promotion",
+    "label": 0,
+    "context": "Host: Where can listeners check these housing numbers?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "The county publishes all of its housing data for free on its website, so you can check it yourself."
+  },
+  {
+    "preset": "podcast",
+    "question": "self_promotion",
+    "label": 0,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Let's talk about why interest rates matter so much for first-time buyers."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "concrete_metric",
+    "label": 1,
+    "context": "Investor: How much traction do you have?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "We now have 48,000 paying users across 30 countries."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "concrete_metric",
+    "label": 1,
+    "context": "Investor: What did the rewrite actually get you?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Median page load time dropped from 3.2 seconds to 0.9 seconds."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "concrete_metric",
+    "label": 1,
+    "context": "Investor: What does it cost?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "It's 29 dollars a month per seat, with no setup fee."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "concrete_metric",
+    "label": 1,
+    "context": "Investor: Do people stick with the fitness app?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Our 90-day retention is 71 percent."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "concrete_metric",
+    "label": 1,
+    "context": "Investor: Where is revenue today?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "We crossed 2.4 million dollars in annual recurring revenue last month."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "concrete_metric",
+    "label": 0,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "I've got three things to show you today, so let's jump right in."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "concrete_metric",
+    "label": 0,
+    "context": "Investor: How much traction do you have?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Tons of people are already using it and loving it."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "concrete_metric",
+    "label": 0,
+    "context": "Investor: Tell us about yourself.",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "I started this company in my college dorm room back in 2019."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "concrete_metric",
+    "label": 0,
+    "context": "Investor: Why would a small business pay for this?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Imagine saving hours every single week."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "concrete_metric",
+    "label": 0,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Our mission is to make home energy simpler for everyone."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "buzzwords",
+    "label": 1,
+    "context": "Investor: So what exactly is the product?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "We're an AI-powered, blockchain-enabled platform driving next-gen synergy across the entire value chain."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "buzzwords",
+    "label": 1,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Think of it as a disruptive, holistic ecosystem that empowers digital transformation at scale."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "buzzwords",
+    "label": 1,
+    "context": "Investor: How is this different from existing tools?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Our revolutionary cloud-native paradigm unlocks frictionless innovation for forward-thinking enterprises."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "buzzwords",
+    "label": 1,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "It's a next-generation, hyper-personalized wellness experience powered by cutting-edge machine learning."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "buzzwords",
+    "label": 1,
+    "context": "Investor: What do schools get out of it?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "We leverage best-in-class AI to deliver seamless, end-to-end, future-proof learning journeys."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "buzzwords",
+    "label": 0,
+    "context": "Investor: Where does the AI come in?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "We use an AI model to read your utility bill and flag any charge that's higher than last month's."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "buzzwords",
+    "label": 0,
+    "context": "Investor: Why does cloud storage matter here?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Everything is stored in the cloud, so if your laptop dies, your invoices are still there when you log in from your phone."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "buzzwords",
+    "label": 0,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "The app syncs with your heart rate strap over Bluetooth and adjusts the treadmill speed to keep you in zone two."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "buzzwords",
+    "label": 0,
+    "context": "Investor: What's special about the hardware?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Our next-gen battery pack charges an e-bike from empty to full in 40 minutes."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "buzzwords",
+    "label": 0,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Teachers upload a worksheet in the evening and get it graded by the next morning."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "overpromise",
+    "label": 1,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "With our program, you are guaranteed to double your income in 90 days or less."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "overpromise",
+    "label": 1,
+    "context": "Investor: How does this help with security?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Install it once, and you'll never have to worry about a data breach ever again."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "overpromise",
+    "label": 1,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Our token is basically risk-free, and early holders are going to 100x their money."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "overpromise",
+    "label": 1,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "This supplement melts away belly fat without any diet or exercise at all."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "overpromise",
+    "label": 1,
+    "context": "Parent: Will this actually help my daughter's test scores?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Our tutoring app guarantees every student a perfect score on the SAT."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "overpromise",
+    "label": 0,
+    "context": "Investor: Does it actually reduce churn for gyms?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "In our pilot with 40 gyms, member cancellations dropped by 12 percent over six months."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "overpromise",
+    "label": 0,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "If you don't like it, we'll refund your first month, no questions asked."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "overpromise",
+    "label": 0,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "You'll never have to re-enter your card details, because we save them securely after your first order."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "overpromise",
+    "label": 0,
+    "context": "Investor: What are your goals for next year?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Our goal is to cut onboarding time in half by the end of next year, and we're about a third of the way there."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "overpromise",
+    "label": 0,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "The dashboard shows your household energy usage hour by hour."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "urgency_pressure",
+    "label": 1,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "We only have three founding-member spots left, so you really need to decide tonight."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "urgency_pressure",
+    "label": 1,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "The price goes up to 499 dollars this Friday at midnight, so lock it in now."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "urgency_pressure",
+    "label": 1,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "This offer disappears the second this webinar ends."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "urgency_pressure",
+    "label": 1,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Only the first 50 people who sign up today get lifetime access."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "urgency_pressure",
+    "label": 1,
+    "context": "Prospect: I need to think about it and talk to my team.",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "If you wait, your competitors will grab this before you do, so act now."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "urgency_pressure",
+    "label": 0,
+    "context": "Prospect: When does the next cohort start?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Applications for the spring cohort close on March 1st, and if that's too soon, the next cohort starts in September."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "urgency_pressure",
+    "label": 0,
+    "context": "Prospect: How long does setup take?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Setup takes about ten minutes, so you could be up and running today."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "urgency_pressure",
+    "label": 0,
+    "context": "Prospect: I need to think about it and talk to my team.",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "There's a 30-day free trial, so take your time and see if it fits."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "urgency_pressure",
+    "label": 0,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Now is a good time to ask questions, because I'll stick around after the demo."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "urgency_pressure",
+    "label": 0,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Our app integrates with Shopify and WooCommerce out of the box."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "vague_benefit",
+    "label": 1,
+    "context": "Prospect: What does it actually do for me?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "It just makes your whole life better."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "vague_benefit",
+    "label": 1,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Our platform helps you unlock your true potential."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "vague_benefit",
+    "label": 1,
+    "context": "Prospect: Why would I switch from what I use now?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Customers tell us it gives them a whole new level of peace of mind."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "vague_benefit",
+    "label": 1,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "This is about empowering your team to be their best selves."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "vague_benefit",
+    "label": 1,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "You'll feel more in control of your future than ever before."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "vague_benefit",
+    "label": 0,
+    "context": "Prospect: What does it actually do for me?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "It cuts the time it takes to reconcile your books from about six hours a month to under one."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "vague_benefit",
+    "label": 0,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "You'll sleep better, because the thermostat lowers your bedroom to 66 degrees an hour before your set bedtime."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "vague_benefit",
+    "label": 0,
+    "context": "Prospect: Why would parents care?",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Parents get a text within five minutes whenever their child checks in at the after-school center."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "vague_benefit",
+    "label": 0,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "Your team spends less time in meetings, because stand-ups happen asynchronously in the app and each update takes about two minutes to post."
+  },
+  {
+    "preset": "sales_pitch",
+    "question": "vague_benefit",
+    "label": 0,
+    "context": "",
+    "earlier_statements": [],
+    "answer_so_far": "",
+    "sentence": "We were founded in Austin by two former nurses."
+  }
+]
