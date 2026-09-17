@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jevmeter"
+version = "0.1.0"
+description = "Put a live Jev (TypeSafe System One) meter on any video: every sentence scored, rendered as a 16:9 edit."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Chetas Lua"}]
+requires-python = ">=3.9"
+dependencies = ["requests>=2.28", "numpy>=1.24", "pillow>=10.1", "imageio-ffmpeg>=0.4.9"]
+
+[project.optional-dependencies]
+mlx = ["mlx-whisper>=0.4"]
+cpu = ["faster-whisper>=1.0"]
+
+[project.scripts]
+jevmeter = "jevmeter.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["jevmeter*"]
+
+[tool.setuptools.package-data]
+"jevmeter.presets" = ["*.json"]

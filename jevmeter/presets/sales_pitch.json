@@ -1,0 +1,20 @@
+{
+  "name": "sales_pitch",
+  "hook": "I gave this pitch a live hype meter.",
+  "hook_sub": "every sentence · 5 questions each",
+  "index_label": "HYPE INDEX",
+  "context_label": "question",
+  "end_title": "Final score: the whole pitch",
+  "questions": [
+    {"key": "concrete_metric", "label": "Concrete metric", "index": false,
+     "instructions": "Does this sentence give a concrete, measurable number (users, revenue, speed, price)?"},
+    {"key": "buzzwords", "label": "Buzzwords", "index": true,
+     "instructions": "Is this sentence mostly buzzwords (AI-powered, revolutionary, disruptive, next-gen) with little concrete meaning?"},
+    {"key": "overpromise", "label": "Overpromise", "index": true,
+     "instructions": "Does this sentence promise results that sound too good to be true or are not backed up?"},
+    {"key": "urgency_pressure", "label": "Urgency pressure", "index": true,
+     "instructions": "Does this sentence push artificial urgency or scarcity (act now, limited time, only a few left)?"},
+    {"key": "vague_benefit", "label": "Vague benefit", "index": true,
+     "instructions": "Does this sentence describe a benefit so vaguely that it cannot be checked?"}
+  ]
+}

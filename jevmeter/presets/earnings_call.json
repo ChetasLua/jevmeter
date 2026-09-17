@@ -1,0 +1,20 @@
+{
+  "name": "earnings_call",
+  "hook": "I put a live spin meter on this earnings call.",
+  "hook_sub": "every sentence · 5 questions each",
+  "index_label": "SPIN INDEX",
+  "context_label": "analyst_question",
+  "end_title": "Final score: the whole call",
+  "questions": [
+    {"key": "specific_number", "label": "Specific number", "index": false,
+     "instructions": "Does this sentence state a specific figure (revenue, margin, growth rate, guidance number)?"},
+    {"key": "vague_guidance", "label": "Vague guidance", "index": true,
+     "instructions": "Does this sentence talk about the future in vague terms without committing to anything measurable?"},
+    {"key": "blame_external", "label": "Blames outside factors", "index": true,
+     "instructions": "Does this sentence attribute weak results to outside factors (macro, weather, FX, supply chain) rather than the company?"},
+    {"key": "hype_language", "label": "Hype language", "index": true,
+     "instructions": "Does this sentence rely on promotional or hype language (incredible, transformational, unprecedented) rather than facts?"},
+    {"key": "dodged_question", "label": "Dodged question", "index": true,
+     "instructions": "Given the analyst's question, does this sentence avoid answering what was actually asked?"}
+  ]
+}

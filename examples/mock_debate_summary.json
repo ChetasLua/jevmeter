@@ -1,0 +1,42 @@
+{
+  "speakers": {
+    "REYES": {
+      "sentences": 19,
+      "factual_claim": 0.1716,
+      "evasive": 0.7532,
+      "contradicts_earlier": 0.1821,
+      "emotional_appeal": 0.7237,
+      "dodged_question": 0.8553,
+      "index": 0.6286
+    },
+    "PARK": {
+      "sentences": 14,
+      "factual_claim": 0.5914,
+      "evasive": 0.2371,
+      "contradicts_earlier": 0.08,
+      "emotional_appeal": 0.1143,
+      "dodged_question": 0.3686,
+      "index": 0.2
+    }
+  },
+  "sentences": 33,
+  "input_tokens": 19984,
+  "output_tokens": 3267,
+  "median_ms": 378,
+  "models": [
+    "jev-1.13.0"
+  ],
+  "thresholds": {
+    "factual_claim": 0.98,
+    "evasive": 0.94,
+    "contradicts_earlier": 0.5,
+    "emotional_appeal": 0.96,
+    "dodged_question": 0.97
+  },
+  "index_keys": [
+    "evasive",
+    "contradicts_earlier",
+    "emotional_appeal",
+    "dodged_question"
+  ]
+}

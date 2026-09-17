@@ -1,0 +1,20 @@
+{
+  "name": "debate",
+  "hook": "I gave the debate a live BS meter.",
+  "hook_sub": "every sentence · both speakers · 5 questions each",
+  "index_label": "BS INDEX",
+  "context_label": "moderator_question",
+  "end_title": "Final score: the whole debate",
+  "questions": [
+    {"key": "factual_claim", "label": "Factual claim", "index": false,
+     "instructions": "Does this sentence make a specific, checkable factual claim (a number, event, record or statistic)?"},
+    {"key": "evasive", "label": "Evasive", "index": true,
+     "instructions": "Is this sentence evasive: talking around the issue instead of addressing it directly?"},
+    {"key": "contradicts_earlier", "label": "Contradicts self", "index": true, "flag": 0.5,
+     "instructions": "Does this sentence contradict something this same speaker said earlier (listed under earlier_statements)?"},
+    {"key": "emotional_appeal", "label": "Emotional appeal", "index": true,
+     "instructions": "Does this sentence rely mainly on emotional appeal (fear, anger, pride, ridicule) rather than evidence or policy?"},
+    {"key": "dodged_question", "label": "Dodged question", "index": true,
+     "instructions": "Given the moderator's question, does this sentence avoid answering what was actually asked?"}
+  ]
+}

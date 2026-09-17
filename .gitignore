@@ -1,0 +1,11 @@
+__pycache__/
+*.egg-info/
+.venv/
+.env
+*.jevmeter/
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+work/

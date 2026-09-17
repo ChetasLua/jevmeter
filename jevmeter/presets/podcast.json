@@ -1,0 +1,20 @@
+{
+  "name": "podcast",
+  "hook": "I ran this podcast through a live claim meter.",
+  "hook_sub": "every sentence · 5 questions each",
+  "index_label": "HOT TAKE INDEX",
+  "context_label": "previous_speaker",
+  "end_title": "Final score: the whole episode",
+  "questions": [
+    {"key": "factual_claim", "label": "Factual claim", "index": false,
+     "instructions": "Does this sentence make a specific, checkable factual claim?"},
+    {"key": "unsupported", "label": "Unsupported claim", "index": true,
+     "instructions": "Does this sentence assert something as true without any evidence, source or reasoning?"},
+    {"key": "overgeneralization", "label": "Overgeneralization", "index": true,
+     "instructions": "Does this sentence make a sweeping generalization (always, never, everyone, nobody)?"},
+    {"key": "emotional_appeal", "label": "Emotional appeal", "index": true,
+     "instructions": "Does this sentence rely mainly on emotion (outrage, fear, ridicule) rather than evidence?"},
+    {"key": "self_promotion", "label": "Self-promotion", "index": true,
+     "instructions": "Is this sentence promoting the speaker, their product, sponsor or brand?"}
+  ]
+}
